@@ -28,7 +28,7 @@ export class AppComponent {
       setTimeout(() => {
         this.routerHidden = false;
         this.splash.nativeElement.style.display = "none";
-      }, 3000);
+      }, 4000);
     });
   }
 }
