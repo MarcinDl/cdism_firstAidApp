@@ -1,0 +1,7 @@
+{
+  "name": "cdism_firstAidApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
