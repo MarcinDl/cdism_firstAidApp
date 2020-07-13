@@ -62,4 +62,14 @@ export class HomePage {
     this.NativePageTransitions.fade(pageTransOpts);
     this.router.navigate(["/first-aid"]);
   }
+
+  navigateFractures() {
+    let pageTransOpts: NativeTransitionOptions = {
+      duration: 1000,
+      iosdelay: 50,
+      androiddelay: 100
+    };
+    this.NativePageTransitions.fade(pageTransOpts);
+    this.router.navigate(["/franctures"]);
+  }
 }

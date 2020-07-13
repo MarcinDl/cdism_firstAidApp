@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'first-aid',
     loadChildren: () => import('./first-aid/first-aid.module').then( m => m.FirstAidPageModule)
   },
+  {
+    path: 'franctures',
+    loadChildren: () => import('./franctures/franctures.module').then( m => m.FrancturesPageModule)
+  },
 ];
 
 @NgModule({
