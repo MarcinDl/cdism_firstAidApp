@@ -1,0 +1,19 @@
+<ion-content>
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      <!-- <ion-icon name="arrow"></ion-icon> -->
+      <!-- <ion-back-button slot="start" text="hej"> </ion-back-button> -->
+      <ion-text (click)="toHomePage()"> back</ion-text>
+      <ion-text> {{ title }}</ion-text>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-grid>
+    <ion-col>
+      <ul *ngFor="let list of lists">
+        <li>{{ list }}</li>
+      </ul>
+    </ion-col>
+    <ion-icon name="arrow"></ion-icon>
+  </ion-grid>
+</ion-content>
