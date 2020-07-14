@@ -2,13 +2,13 @@
   <ion-header class="ion-no-border">
     <ion-toolbar>
       <ion-buttons slot="start">
-        <ion-back-button text="" color="black"></ion-back-button>
+        <ion-back-button text="" style="color: black"></ion-back-button>
       </ion-buttons>
       <ion-text style="text-align: center; display: block;">{{title}} </ion-text>
     </ion-toolbar>
   </ion-header>
 
-  <ion-grid>
+  <ion-grid style="margin-top: 5vh;">
     <ion-col>
       <ul *ngFor="let list of lists">
         <li>{{ list }}</li>

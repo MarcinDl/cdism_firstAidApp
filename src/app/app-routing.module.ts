@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+    loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
   },
   {
     path: '',
@@ -13,16 +13,16 @@ const routes: Routes = [
   },
   {
     path: 'second',
-    loadChildren: () => import('./second/second.module').then( m => m.SecondPageModule)
+    loadChildren: () => import('./second/second.module').then(m => m.SecondPageModule)
   },
   {
     path: 'first-aid',
-    loadChildren: () => import('./first-aid/first-aid.module').then( m => m.FirstAidPageModule)
+    loadChildren: () => import('./first-aid/first-aid.module').then(m => m.FirstAidPageModule)
   },
   {
     path: 'franctures',
-    loadChildren: () => import('./franctures/franctures.module').then( m => m.FrancturesPageModule)
-  },
+    loadChildren: () => import('./franctures/franctures.module').then(m => m.FrancturesPageModule)
+  }
 ];
 
 @NgModule({
