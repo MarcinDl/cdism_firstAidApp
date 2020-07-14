@@ -26,7 +26,7 @@ const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: './generalFractures',
+        redirectTo: 'generalFractures',
         pathMatch: "full"
       }
     ]

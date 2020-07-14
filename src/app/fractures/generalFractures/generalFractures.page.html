@@ -1,9 +1,10 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>general</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      <ion-title>Złamania i zwichnięcia</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div *ngFor="let symptom of symptoms">
+    {{symptom}}
+  </div>
 </ion-content>
