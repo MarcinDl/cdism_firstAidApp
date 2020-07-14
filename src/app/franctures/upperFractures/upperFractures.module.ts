@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { Tab2PageRoutingModule } from './tab2-routing.module';
+import { upperFracturesPageRoutingModule } from './upperFractures-routing.module';
 
-import { Tab2Page } from './tab2.page';
+import { upperFracturesPage } from './upperFractures.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    Tab2PageRoutingModule
+    upperFracturesPageRoutingModule
   ],
-  declarations: [Tab2Page]
+  declarations: [upperFracturesPage]
 })
-export class Tab2PageModule {}
+export class upperFracturesPageModule { }

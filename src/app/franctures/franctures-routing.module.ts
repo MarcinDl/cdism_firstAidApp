@@ -9,24 +9,24 @@ const routes: Routes = [
     component: FrancturesPage,
     children: [
       {
-        path: 'tab1',
-        loadChildren: () => import('./tab1/tab1.module').then(m => m.Tab1PageModule)
+        path: 'generalFractures',
+        loadChildren: () => import('./generalFractures/generalFractures.module').then(m => m.generalFracturesPageModule)
       },
       {
-        path: 'tab2',
-        loadChildren: () => import('./tab2/tab2.module').then(m => m.Tab2PageModule)
+        path: 'upperFractures',
+        loadChildren: () => import('./upperFractures/upperFractures.module').then(m => m.upperFracturesPageModule)
       },
       {
-        path: 'tab3',
-        loadChildren: () => import('./tab3/tab3.module').then(m => m.Tab3PageModule)
+        path: 'lowerFractures',
+        loadChildren: () => import('./lowerFractures/lowerFractures.module').then(m => m.lowerFracturesPageModule)
       },
       {
-        path: 'tab4',
-        loadChildren: () => import('./tab4/tab4.module').then(m => m.Tab4PageModule)
+        path: 'backboneFractures',
+        loadChildren: () => import('./backboneFractures/backboneFractures.module').then(m => m.backboneFracturesPageModule)
       },
       {
         path: '',
-        redirectTo: './tab1',
+        redirectTo: './generalFractures',
         pathMatch: "full"
       }
     ]
