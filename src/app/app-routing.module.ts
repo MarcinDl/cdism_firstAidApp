@@ -20,8 +20,8 @@ const routes: Routes = [
     loadChildren: () => import('./first-aid/first-aid.module').then(m => m.FirstAidPageModule)
   },
   {
-    path: 'franctures',
-    loadChildren: () => import('./franctures/franctures.module').then(m => m.FrancturesPageModule)
+    path: 'fractures',
+    loadChildren: () => import('./fractures/fractures.module').then(m => m.fracturesPageModule)
   }
 ];
 

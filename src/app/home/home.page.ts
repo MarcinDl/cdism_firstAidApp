@@ -70,6 +70,6 @@ export class HomePage {
       androiddelay: 100
     };
     this.NativePageTransitions.fade(pageTransOpts);
-    this.router.navigate(["/franctures"]);
+    this.router.navigate(["/fractures"]);
   }
 }

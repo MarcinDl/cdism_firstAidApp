@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-franctures',
-  templateUrl: './franctures.page.html',
-  styleUrls: ['./franctures.page.scss'],
+  selector: 'app-fractures',
+  templateUrl: './fractures.page.html',
+  styleUrls: ['./fractures.page.scss'],
 })
-export class FrancturesPage implements OnInit {
+export class fracturesPage implements OnInit {
 
   constructor() { }
 

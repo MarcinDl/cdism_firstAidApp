@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { FrancturesPageRoutingModule } from './franctures-routing.module';
+import { fracturesPageRoutingModule } from './fractures-routing.module';
 
-import { FrancturesPage } from './franctures.page';
+import { fracturesPage } from './fractures.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    FrancturesPageRoutingModule
+    fracturesPageRoutingModule
   ],
-  declarations: [FrancturesPage]
+  declarations: [fracturesPage]
 })
-export class FrancturesPageModule {}
+export class fracturesPageModule { }
