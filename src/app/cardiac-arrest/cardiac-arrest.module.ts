@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { SecondPageRoutingModule } from './second-routing.module';
+import { CardiacArrestPageRoutingModule } from './cardiac-arrest-routing.module';
 
-import { SecondPage } from './second.page';
+import { CardiacArrestPage } from './cardiac-arrest.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    SecondPageRoutingModule
+    CardiacArrestPageRoutingModule
   ],
-  declarations: [SecondPage]
+  declarations: [CardiacArrestPage]
 })
-export class SecondPageModule {}
+export class CardiacArrestPageModule {}

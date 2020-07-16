@@ -1,10 +1,16 @@
 <ion-content>
   <ion-header class="ion-no-border">
     <ion-toolbar>
-      <ion-title>Złamania i zwichnięcia</ion-title>
+      <ion-title>{{generalFracturesTitle}}</ion-title>
     </ion-toolbar>
   </ion-header>
+  <h3>{{symptomsTitle}}</h3>
   <div *ngFor="let symptom of symptoms">
     {{symptom}}
+  </div>
+
+  <h3>{{forbiddenActsTitle}}</h3>
+  <div *ngFor="let forbiddenAct of forbiddenActs">
+    {{forbiddenAct}}
   </div>
 </ion-content>

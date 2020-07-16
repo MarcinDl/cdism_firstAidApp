@@ -12,16 +12,20 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'second',
-    loadChildren: () => import('./second/second.module').then(m => m.SecondPageModule)
-  },
-  {
     path: 'first-aid',
     loadChildren: () => import('./first-aid/first-aid.module').then(m => m.FirstAidPageModule)
   },
   {
     path: 'fractures',
     loadChildren: () => import('./fractures/fractures.module').then(m => m.fracturesPageModule)
+  },
+  {
+    path: 'unconscious',
+    loadChildren: () => import('./unconscious/unconscious.module').then(m => m.UnconsciousPageModule)
+  },
+  {
+    path: 'cardiac-arrest',
+    loadChildren: () => import('./cardiac-arrest/cardiac-arrest.module').then(m => m.CardiacArrestPageModule)
   }
 ];
 

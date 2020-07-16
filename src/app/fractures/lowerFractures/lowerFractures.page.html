@@ -1,9 +1,12 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>lowerFractures</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      <ion-text>{{ lowerFracturesTitle}}}</ion-text>
+    </ion-toolbar>
+  </ion-header>
+  <h3>{{lowerFracturesContentTitle}}</h3>
+  <div *ngFor="let content of lowerFracturesContent">
+    {{content}}
+  </div>
 
 </ion-content>

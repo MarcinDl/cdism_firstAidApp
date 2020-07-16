@@ -1,9 +1,21 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>backboneFractures</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>{{ backboneFracturesTitle}}</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
+  <h3>{{backboneFracturesSymptomsTitle}}</h3>
+  <div *ngFor="let content of backboneFracturesSymptoms">
+    {{content}}
+  </div>
+
+  <h3>{{backboneFracturesDoNotTitle}}</h3>
+  <div *ngFor="let content of backboneFracturesDoNot">
+    {{content}}
+  </div>
+  <h3>{{backboneFracturesWhatToDoTitle}}</h3>
+  <div *ngFor="let content of backboneFracturesWhatToDo">
+    {{content}}
+  </div>
 </ion-content>
