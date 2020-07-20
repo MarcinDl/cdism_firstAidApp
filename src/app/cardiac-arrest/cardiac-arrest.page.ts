@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { PopoverController } from '@ionic/angular';
 
 @Component({
   selector: 'app-cardiac-arrest',
@@ -12,5 +11,7 @@ export class CardiacArrestPage implements OnInit {
 
   ngOnInit() {
   }
+
+
 
 }

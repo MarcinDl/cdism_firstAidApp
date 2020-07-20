@@ -12,6 +12,8 @@ import {
   NativePageTransitions,
   NativeTransitionOptions,
 } from "@ionic-native/native-page-transitions/ngx";
+
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -22,6 +24,7 @@ import {
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     NativePageTransitions,
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+
 })
 export class AppModule { }

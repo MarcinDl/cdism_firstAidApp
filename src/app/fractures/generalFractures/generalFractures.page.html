@@ -4,13 +4,14 @@
       <ion-title>{{generalFracturesTitle}}</ion-title>
     </ion-toolbar>
   </ion-header>
+  <h1>{{generalFracturesTitle}}</h1>
   <h3>{{symptomsTitle}}</h3>
-  <div *ngFor="let symptom of symptoms">
-    {{symptom}}
-  </div>
+  <ul *ngFor="let symptom of symptoms">
+    <li>{{symptom}}</li>
+  </ul>
 
   <h3>{{forbiddenActsTitle}}</h3>
-  <div *ngFor="let forbiddenAct of forbiddenActs">
-    {{forbiddenAct}}
-  </div>
+  <ul *ngFor="let forbiddenAct of forbiddenActs">
+    <li>{{forbiddenAct}}</li>
+  </ul>
 </ion-content>

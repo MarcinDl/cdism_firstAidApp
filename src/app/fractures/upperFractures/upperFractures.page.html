@@ -1,12 +1,13 @@
 <ion-content>
   <ion-header class="ion-no-border">
     <ion-toolbar>
-      <ion-text>{{ upperFracturesTitle}}}</ion-text>
+      <ion-text>{{ upperFracturesTitle}}</ion-text>
     </ion-toolbar>
   </ion-header>
+  <h1>{{ upperFracturesTitle}}</h1>
   <h3>{{upperFracturesContentTitle}}</h3>
-  <div *ngFor="let content of upperFracturesContent">
-    {{content}}
-  </div>
+  <ul *ngFor="let content of upperFracturesContent">
+    <li>{{content}}</li>
+  </ul>
 
 </ion-content>

@@ -1,12 +1,27 @@
-<ion-content>
+<!-- <ion-content>
   <ion-header class="ion-no-border">
     <ion-toolbar>
-      <ion-text>{{ lowerFracturesTitle}}}</ion-text>
+      <ion-text>{{ lowerFracturesTitle}}</ion-text>
     </ion-toolbar>
-  </ion-header>
+  </ion-header> -->
+<ion-header class="ion-no-border">
+  <ion-toolbar class="ion-no-border">
+    <ion-back-button text="Powrót" slot="start"></ion-back-button>
+    <ion-title>{{ lowerFracturesTitle}}</ion-title>
+
+    <ion-icon slot="end" name="eye" style="margin-right: 5vw"></ion-icon>
+    <ion-text slot="end" style="margin-right: 2vw">aA</ion-text>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+
+  <h1>{{ lowerFracturesTitle}}</h1>
   <h3>{{lowerFracturesContentTitle}}</h3>
-  <div *ngFor="let content of lowerFracturesContent">
-    {{content}}
-  </div>
+  <ul *ngFor="let content of lowerFracturesContent">
+    <li>{{content}}</li>
+  </ul>
 
 </ion-content>

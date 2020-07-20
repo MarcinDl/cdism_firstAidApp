@@ -26,6 +26,10 @@ const routes: Routes = [
   {
     path: 'cardiac-arrest',
     loadChildren: () => import('./cardiac-arrest/cardiac-arrest.module').then(m => m.CardiacArrestPageModule)
+  },
+  {
+    path: 'safe-position',
+    loadChildren: () => import('./safe-position/safe-position.module').then( m => m.SafePositionPageModule)
   }
 ];
 
