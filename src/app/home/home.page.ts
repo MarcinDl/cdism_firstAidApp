@@ -4,6 +4,9 @@ import {
   NativeTransitionOptions,
 } from "@ionic-native/native-page-transitions/ngx";
 import { Router } from "@angular/router";
+import { ModalController } from '@ionic/angular';
+import { MenuComponent } from './../components/menu/menu.component'
+import { GeneralService } from "./../services/general.service";
 
 @Component({
   selector: "app-home",
@@ -11,9 +14,15 @@ import { Router } from "@angular/router";
   styleUrls: ["home.page.scss"],
 })
 export class HomePage {
+
+  bigFont: any;
+  darkMode: any;
+  
   constructor(
     private NativePageTransitions: NativePageTransitions,
-    private router: Router
+    private router: Router,
+    private modalCtr: ModalController,
+    private generalService:GeneralService
   ) { }
 
   slidePage() {
@@ -102,4 +111,31 @@ export class HomePage {
     this.NativePageTransitions.fade(pageTransOpts);
     this.router.navigate(["/safe-position"]);
   }
+
+
+  async openModal() {
+    const modal = await this.modalCtr.create({
+      component: MenuComponent,
+      cssClass: 'my-custom-modal-css',
+      // componentProps: {
+      //   foo: "hello",
+      //   bar: oswiecimPlace
+      // }
+    });
+    await modal.present();
+
+    // await modal.onWillDismiss();
+    // if (this[this.placeOnPage] && this[this.placeOnPage].length === 1) {
+    //   this.router.navigate(['menu']);
+    // }
+
+  }
+
+  ngDoCheck() {
+    this.darkMode = this.generalService.darkMode;
+    this.bigFont = this.generalService.bigFont;
+  }
+
+
+
 }

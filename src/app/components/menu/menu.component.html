@@ -1,0 +1,60 @@
+
+<ion-grid [ngClass]="{ 'big-font': bigFontTemp, 'dark': darkModeTemp }" style="width: 100vw">
+  <ion-row>
+    <ion-col>
+      <ion-button (click)="dismissModal()">Zamknij</ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-list>
+        <ion-radio-group value="polish">
+          <ion-list-header>
+            <ion-label>Wybierz język</ion-label>
+          </ion-list-header>
+      
+          <ion-item>
+            <ion-label>Polski</ion-label>
+            <ion-radio checked slot="start" value="polish"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>English</ion-label>
+            <ion-radio slot="start" value="english"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>Deutsch</ion-label>
+            <ion-radio slot="start" value="german"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-list>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <ion-list>
+        <ion-list-header>
+          <ion-label>WCAG</ion-label>
+        </ion-list-header>
+        <ion-item (click)="bigFont()">
+          <ion-label>Powiększ czcionkę</ion-label>
+          <ion-checkbox slot="end"></ion-checkbox>
+        </ion-item>
+        <ion-item (click)="darkMode()">
+          <ion-label>Kontrast</ion-label>
+          <ion-checkbox slot="end"></ion-checkbox>
+        </ion-item>
+        <ion-item>
+          <ion-label>Odstęp pionowy</ion-label>
+          <ion-checkbox slot="end"></ion-checkbox>
+        </ion-item>
+        <ion-item>
+          <ion-label>Odstęp poziomy</ion-label>
+          <ion-checkbox slot="end"></ion-checkbox>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+  </ion-row>
+</ion-grid>

@@ -32,3 +32,24 @@ ion-content, ion-toolbar{
 ion-back-button {
    display: block;
 }
+
+.dark{
+    background-color: black;
+    --background: black;
+    background: black;
+    color: yellow;
+    --color: yellow;
+
+
+    ion-content, ion-grid, ion-list, ion-item{
+        background-color: black;
+        --background: black;
+        background: black;
+        color: yellow;
+        --color: yellow;
+    }
+}
+
+.big-font{
+    font-size: 80px;
+}

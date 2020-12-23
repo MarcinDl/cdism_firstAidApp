@@ -1,23 +1,12 @@
-<!-- <ion-content [fullscreen]="true" no-bounce has-bouncing="false" forceOverscroll="false"> -->
-<ion-content>
+<ion-content [ngClass]="{ 'big-font': bigFont, 'dark': darkMode }"  [fullscreen]="true" no-bounce has-bouncing="false" forceOverscroll="false">
     <ion-header class="ion-no-border">
         <ion-toolbar class="ion-no-border">
 
-            <ion-title>Menu Główne</ion-title>
-
-            <ion-icon slot="end" name="eye" style="margin-right: 5vw"></ion-icon>
-            <ion-text slot="end" style="margin-right: 2vw">aA</ion-text>
+            <ion-title>Pierwsza pomoc</ion-title>
+            <ion-icon (click)="openModal()" slot="end" name="menu-outline"></ion-icon>
         </ion-toolbar>
+    
     </ion-header>
-    <!-- <br><br><br>
-    <ion-text full (click)="slidePage()">Slide</ion-text>
-
-    <br><br><br>
-    <ion-text full (click)="flipPage()">Flip</ion-text>
-    <br><br><br>
-    <ion-text full (click)="fadePage()">fade</ion-text>
-    <br><br><br>
-    <ion-text full (click)="curlPage()">Curl</ion-text> -->
     <br><br><br>
     <div (click)="cardialArrest()">Zatrzymanie krązenia</div>
     <br><br><br>
