@@ -29,7 +29,11 @@ const routes: Routes = [
   },
   {
     path: 'safe-position',
-    loadChildren: () => import('./safe-position/safe-position.module').then( m => m.SafePositionPageModule)
+    loadChildren: () => import('./pages/safe-position/safe-position.module').then( m => m.SafePositionPageModule)
+  },
+  {
+    path: 'faq',
+    loadChildren: () => import('./pages/faq/faq.module').then( m => m.FaqPageModule)
   }
 ];
 
