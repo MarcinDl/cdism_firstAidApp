@@ -22,7 +22,7 @@ export class HomePage {
     private NativePageTransitions: NativePageTransitions,
     private router: Router,
     private modalCtr: ModalController,
-    private generalService:GeneralService
+    public generalService:GeneralService
   ) { }
 
   slidePage() {
