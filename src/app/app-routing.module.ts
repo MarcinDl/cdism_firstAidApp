@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: 'home',
-    loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
+    loadChildren: () => import('./pages/home/home.module').then(m => m.HomePageModule)
   },
   {
     path: '',
@@ -13,19 +13,19 @@ const routes: Routes = [
   },
   {
     path: 'first-aid',
-    loadChildren: () => import('./first-aid/first-aid.module').then(m => m.FirstAidPageModule)
+    loadChildren: () => import('./pages/first-aid/first-aid.module').then(m => m.FirstAidPageModule)
   },
   {
     path: 'fractures',
-    loadChildren: () => import('./fractures/fractures.module').then(m => m.fracturesPageModule)
+    loadChildren: () => import('./pages/fractures/fractures.module').then(m => m.fracturesPageModule)
   },
   {
     path: 'unconscious',
-    loadChildren: () => import('./unconscious/unconscious.module').then(m => m.UnconsciousPageModule)
+    loadChildren: () => import('./pages/unconscious/unconscious.module').then(m => m.UnconsciousPageModule)
   },
   {
     path: 'cardiac-arrest',
-    loadChildren: () => import('./cardiac-arrest/cardiac-arrest.module').then(m => m.CardiacArrestPageModule)
+    loadChildren: () => import('./pages/cardiac-arrest/cardiac-arrest.module').then(m => m.CardiacArrestPageModule)
   },
   {
     path: 'safe-position',

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { generalFracturesContent } from './../fracturesContent';
-import { generalFracturesTitle } from './../fracturesContent';
+import { generalFracturesContent } from '../fracturesContent';
+import { generalFracturesTitle } from '../fracturesContent';
 @Component({
   selector: 'app-generalFractures',
   templateUrl: './generalFractures.page.html',

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { lowerFracturesContent } from './../fracturesContent';
-import { lowerFracturesTitle } from './../fracturesContent';
+import { lowerFracturesContent } from '../fracturesContent';
+import { lowerFracturesTitle } from '../fracturesContent';
 @Component({
   selector: 'app-lowerFractures',
   templateUrl: './lowerFractures.page.html',

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { backboneFracturesTitle } from './../fracturesContent';
-import { backboneracturesContent } from './../fracturesContent';
+import { backboneFracturesTitle } from '../fracturesContent';
+import { backboneracturesContent } from '../fracturesContent';
 @Component({
   selector: 'app-backboneFractures',
   templateUrl: './backboneFractures.page.html',

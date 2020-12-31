@@ -5,8 +5,8 @@ import {
 } from "@ionic-native/native-page-transitions/ngx";
 import { Router } from "@angular/router";
 import { ModalController } from '@ionic/angular';
-import { MenuComponent } from './../components/menu/menu.component'
-import { GeneralService } from "./../services/general.service";
+import { MenuComponent } from './../../components/menu/menu.component'
+import { GeneralService } from "./../../services/general.service";
 
 @Component({
   selector: "app-home",
