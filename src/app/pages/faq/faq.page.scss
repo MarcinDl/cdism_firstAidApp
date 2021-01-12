@@ -1,0 +1,31 @@
+/* css do 1. i 2. sposobu */
+.hide {
+    display: none;
+  }
+  .show {
+    display: block;
+    color: red;
+    animation: opac 3s;
+  }
+  
+  @keyframes opac {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  svg {
+    transform: rotateZ(90deg);
+  }
+  /* .triangle-down{
+      transform: rotateZ(180deg);
+  } */
+  
+  /* css do 3. sposobu */
+  .open .triangle-down {
+    transform: rotateZ(180deg);
+  }
+  

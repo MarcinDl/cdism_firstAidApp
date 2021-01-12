@@ -11,5 +11,5 @@ export class FaqPage implements OnInit {
 
   ngOnInit() {
   }
-
+  
 }
