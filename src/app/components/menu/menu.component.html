@@ -2,30 +2,30 @@
 <ion-grid [ngClass]="{ 'big-font': bigFontTemp, 'dark': darkModeTemp }" style="width: 100vw">
   <ion-row>
     <ion-col>
-      <ion-button (click)="dismissModal()">Zamknij</ion-button>
+      <ion-text (click)="dismissModal()">(X) Zamknij</ion-text>
     </ion-col>
   </ion-row>
   <ion-row>
     <ion-col>
       <ion-list>
         <ion-radio-group value="polish">
-          <ion-list-header>
-            <ion-label>Wybierz język</ion-label>
+          <ion-list-header class="ion-text-center">
+            <ion-label class="border-bottom-dark-blue" style="height: 40px">Wybierz język</ion-label>
           </ion-list-header>
       
           <ion-item>
             <ion-label>Polski</ion-label>
-            <ion-radio checked slot="start" value="polish"></ion-radio>
+            <ion-radio checked slot="end" value="polish"></ion-radio>
           </ion-item>
       
           <ion-item>
             <ion-label>English</ion-label>
-            <ion-radio slot="start" value="english"></ion-radio>
+            <ion-radio slot="end" value="english"></ion-radio>
           </ion-item>
       
           <ion-item>
             <ion-label>Deutsch</ion-label>
-            <ion-radio slot="start" value="german"></ion-radio>
+            <ion-radio slot="end" value="german"></ion-radio>
           </ion-item>
         </ion-radio-group>
       </ion-list>
@@ -35,8 +35,8 @@
   <ion-row>
     <ion-col>
       <ion-list>
-        <ion-list-header>
-          <ion-label>WCAG</ion-label>
+        <ion-list-header class="ion-text-center">
+          <ion-label class="border-bottom-dark-blue" style="height: 40px">WCAG</ion-label>
         </ion-list-header>
         <ion-item (click)="bigFont()">
           <ion-label>Powiększ czcionkę</ion-label>

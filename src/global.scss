@@ -25,6 +25,14 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+$lightBlue-1E73BE: #1E73BE;
+$darkBlue-00346F: #00346F;
+$yellow: yellow;
+
+@mixin border-bottom($px,$solid,$color) {
+    border-bottom: $px $solid $color;
+}
+
 ion-content, ion-toolbar{
     --background: var(--ion-color-background);
 }
@@ -33,6 +41,18 @@ ion-back-button {
    display: block;
 }
 
+.border-bottom-dark-blue{
+    @include border-bottom(5px, solid, $darkBlue-00346F)
+}
+
+.my-custom-modal-css .modal-wrapper{
+    height: 95%;
+    top: 5%;
+    position: absolute;
+    display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 .dark{
     background-color: black;
     --background: black;
@@ -40,7 +60,9 @@ ion-back-button {
     color: yellow;
     --color: yellow;
 
-
+    .border-bottom-dark-blue{
+        @include border-bottom(5px, solid, $yellow)
+    }
     ion-content, ion-grid, ion-list, ion-item{
         background-color: black;
         --background: black;
