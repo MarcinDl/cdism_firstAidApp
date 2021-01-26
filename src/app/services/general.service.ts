@@ -9,4 +9,9 @@ export class GeneralService {
   public bigFont: any;
   
   constructor() { }
+
+
+  allegro(){
+    alert("dupa")
+  }
 }

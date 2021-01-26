@@ -7,13 +7,14 @@ import { IonicModule } from '@ionic/angular';
 import { fracturesPageRoutingModule } from './fractures-routing.module';
 
 import { fracturesPage } from './fractures.page';
-
+import { SharedModule } from './../../shared/shared.module';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    fracturesPageRoutingModule
+    fracturesPageRoutingModule,
+    SharedModule
   ],
   declarations: [fracturesPage]
 })

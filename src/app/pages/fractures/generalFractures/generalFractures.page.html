@@ -1,17 +1,20 @@
-<ion-content>
-  <ion-header class="ion-no-border">
+<ion-content style=" max-height: 300px; overflow-y: auto;">
+  <!-- <ion-header class="ion-no-border">
     <ion-toolbar>
       <ion-title>{{generalFracturesTitle}}</ion-title>
     </ion-toolbar>
-  </ion-header>
-  <h1>{{generalFracturesTitle}}</h1>
-  <h3>{{symptomsTitle}}</h3>
-  <ul *ngFor="let symptom of symptoms">
-    <li>{{symptom}}</li>
-  </ul>
-
-  <h3>{{forbiddenActsTitle}}</h3>
-  <ul *ngFor="let forbiddenAct of forbiddenActs">
-    <li>{{forbiddenAct}}</li>
-  </ul>
+  </ion-header> -->
+  <!-- <h1>{{generalFracturesTitle}}</h1> -->
+  <div style="margin-top: 23vh; " >
+    <h1 class="ion-text-center">{{generalFracturesTitle}}</h1>
+    <h3>{{symptomsTitle}}</h3>
+    <ul *ngFor="let symptom of symptoms">
+      <li>{{symptom}}</li>
+    </ul>
+  
+    <h3>{{forbiddenActsTitle}}</h3>
+    <ul *ngFor="let forbiddenAct of forbiddenActs">
+      <li>{{forbiddenAct}}</li>
+    </ul>
+  </div>
 </ion-content>

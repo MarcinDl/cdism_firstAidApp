@@ -9,6 +9,9 @@
   src: './../assets/font/nunitoregular.ttf'
 }
 
+*{
+  font-family: "nunitoregular", sans-serif !important;
+}
 :root {
   --ion-font-family: "nunitoregular", sans-serif !important;
   font-family: "nunitoregular", sans-serif !important;
@@ -86,7 +89,8 @@
 }
 
 :root {
-  --ion-color-background: #ecedf1;
+  // --ion-color-background: #ecedf1;
+  --ion-color-background: white;
   --ion-color-background-rgb: 236,237,241;
   --ion-color-background-contrast: #000000;
   --ion-color-background-contrast-rgb: 0,0,0;

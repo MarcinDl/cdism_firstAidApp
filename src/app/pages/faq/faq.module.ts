@@ -6,7 +6,8 @@ import { IonicModule } from '@ionic/angular';
 
 import { FaqPageRoutingModule } from './faq-routing.module';
 import { FaqPage } from './faq.page';
-import { SharedModule } from './../../shared/shared.module'
+import { SharedModule } from './../../shared/shared.module';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -16,6 +17,6 @@ import { SharedModule } from './../../shared/shared.module'
     SharedModule
   ],
   declarations: [FaqPage],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  // schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class FaqPageModule {}

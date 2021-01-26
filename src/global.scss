@@ -25,10 +25,21 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+
 $lightBlue-1E73BE: #1E73BE;
+$lightGrey-C0C0C0: #C0C0C0;
 $darkBlue-00346F: #00346F;
 $yellow: yellow;
 
+// @font-face {
+//     font-family: nunito;
+//     src: url(./assets/font/nunitoregular.ttf) format("opentype");
+//   }
+
+// *{
+//     font-family: "nunito", Arial, sans-serif;
+
+// }
 @mixin border-bottom($px,$solid,$color) {
     border-bottom: $px $solid $color;
 }
@@ -43,6 +54,9 @@ ion-back-button {
 
 .border-bottom-dark-blue{
     @include border-bottom(5px, solid, $darkBlue-00346F)
+}
+.border-bottom-light-grey{
+    @include border-bottom(1px, solid, $lightGrey-C0C0C0)
 }
 
 .my-custom-modal-css .modal-wrapper{
