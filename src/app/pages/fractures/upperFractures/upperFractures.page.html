@@ -1,14 +1,9 @@
-<ion-content style=" max-height: 300px; overflow-y: auto;">
-  <!-- <ion-header class="ion-no-border">
-    <ion-toolbar>
-      <ion-text>{{ upperFracturesTitle}}</ion-text>
-    </ion-toolbar>
-  </ion-header> -->
-  <div style="margin-top: 23vh">
-  <h1 class="ion-text-center">{{ upperFracturesTitle}}</h1>
-  <h3>{{upperFracturesContentTitle}}</h3>
-  <ul *ngFor="let content of upperFracturesContent">
-    <li>{{content}}</li>
-  </ul>
+<ion-content>
+  <div>
+    <h1 class="ion-text-center">{{ upperFracturesTitle}}</h1>
+    <h3>{{upperFracturesContentTitle}}</h3>
+    <ul *ngFor="let content of upperFracturesContent">
+      <li>{{content}}</li>
+    </ul>
 </div>
 </ion-content>

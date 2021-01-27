@@ -31,15 +31,6 @@ $lightGrey-C0C0C0: #C0C0C0;
 $darkBlue-00346F: #00346F;
 $yellow: yellow;
 
-// @font-face {
-//     font-family: nunito;
-//     src: url(./assets/font/nunitoregular.ttf) format("opentype");
-//   }
-
-// *{
-//     font-family: "nunito", Arial, sans-serif;
-
-// }
 @mixin border-bottom($px,$solid,$color) {
     border-bottom: $px $solid $color;
 }
@@ -49,7 +40,7 @@ ion-content, ion-toolbar{
 }
 
 ion-back-button {
-   display: block;
+    display: block;
 }
 
 .border-bottom-dark-blue{
