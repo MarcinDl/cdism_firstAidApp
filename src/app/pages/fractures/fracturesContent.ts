@@ -9,7 +9,7 @@ const symptoms = [
     'drętwienie, zaburzenia czucia za miejscem złamania',
     'rana, krwawienie, widoczne odłamy kostne w przypadku złamania otwartego'
 ];
-const symptomsTitle = 'Objawy';
+const symptomsTitle = 'Objawy:';
 const forbiddenActs = [
     'nie przenoś i nie obracaj poszkodowanego do momentu unieruchomienia kończyny',
     'nie poruszaj złamaną kończyną i nie próbuj jej nastawiać',
@@ -57,7 +57,7 @@ const whatToDoLower = [
     'W przypadku urazu kolana gdy uszkodzona noga jest wyprostowana, unieruchom kończyną za pomocą szyny na całej długości.Jeśli jest taka możliwość, przymocuj dwie deski z dwóch stron chorej nogi - krótszą od wewnątrz, a dłuższą na zewnątrz kończyny.',
 
 ];
-const whatToDoLowerTitle = 'Objawy';
+const whatToDoLowerTitle = 'Objawy:';
 
 export const lowerFracturesContent = {
     whatToDoLower: whatToDoLower,
@@ -82,7 +82,7 @@ const backboneFracturesDoNot = [
     'Nie pozostawiaj poszkodowanego samego',
     'Nie podawaj choremu nic do picia i jedzenia.'
 ]
-const backboneFracturesDoNotTitle = 'Nie należy';
+const backboneFracturesDoNotTitle = 'Nie należy:';
 
 const backboneFracturesWhatToDoTitle = 'Co robić?'
 const backboneFracturesWhatToDo = [

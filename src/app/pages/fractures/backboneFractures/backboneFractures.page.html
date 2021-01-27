@@ -1,19 +1,19 @@
 <ion-content>
 
-  <div>
-    <h1 class="ion-text-center">{{backboneFracturesTitle}}</h1>
+  <div class="margin-23vh" style="width: 94vw; margin-left: 3vw;">
+    <h1 class="ion-text-center  border-bottom-dark-blue">{{backboneFracturesTitle}}</h1>
     <h3>{{backboneFracturesSymptomsTitle}}</h3>
-    <ul *ngFor="let content of backboneFracturesSymptoms">
-      <li> {{content}}</li>
+    <ul>
+      <li *ngFor="let content of backboneFracturesSymptoms"> {{content}}</li>
     </ul>
 
     <h3>{{backboneFracturesDoNotTitle}}</h3>
-    <ul *ngFor="let content of backboneFracturesDoNot">
-      <li>{{content}}</li>
+    <ul>
+      <li *ngFor="let content of backboneFracturesDoNot">{{content}}</li>
     </ul>
     <h3>{{backboneFracturesWhatToDoTitle}}</h3>
-    <ul *ngFor="let content of backboneFracturesWhatToDo">
-      <li>{{content}}</li>
+    <ul>
+      <li *ngFor="let content of backboneFracturesWhatToDo">{{content}}</li>
     </ul>
   </div>
 </ion-content>

@@ -4,17 +4,14 @@
 /** Ionic CSS Variables **/
 
 @font-face{
-  font-family: 'nunitoregular',  sans-serif;
+  font-family: 'nunitoregular';
   font-style: normal;
-  src: './../assets/font/nunitoregular.ttf'
+  src: url("./../assets/font/nunitoregular.ttf")
 }
 
-*{
-  font-family: "nunitoregular", sans-serif !important;
-}
 :root {
-  --ion-font-family: "nunitoregular", sans-serif !important;
-  font-family: "nunitoregular", sans-serif !important;
+  --ion-font-family: "nunitoregular", serif ;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;

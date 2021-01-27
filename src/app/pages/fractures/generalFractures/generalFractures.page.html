@@ -1,14 +1,14 @@
-<ion-content [fullscreen]="true" >
-  <div>
-    <h1 class="ion-text-center">{{generalFracturesTitle}}</h1>
-    <h3>{{symptomsTitle}}</h3>
-    <ul *ngFor="let symptom of symptoms">
-      <li>{{symptom}}</li>
+<ion-content >
+  <div class="margin-23vh" style="width: 94vw; margin-left: 3vw;">
+    <h2 class="ion-text-center border-bottom-dark-blue">{{generalFracturesTitle}}</h2>
+    <h4>{{symptomsTitle}}</h4>
+    <ul>
+      <li *ngFor="let symptom of symptoms">{{symptom}}</li>
     </ul>
   
     <h3>{{forbiddenActsTitle}}</h3>
-    <ul *ngFor="let forbiddenAct of forbiddenActs">
-      <li>{{forbiddenAct}}</li>
+    <ul>
+      <li *ngFor="let forbiddenAct of forbiddenActs">{{forbiddenAct}}</li>
     </ul>
   </div>
 </ion-content>

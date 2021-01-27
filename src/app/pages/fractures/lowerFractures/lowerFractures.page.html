@@ -1,9 +1,9 @@
 <ion-content>
-  <div>
-    <h1 class="ion-text-center">{{ lowerFracturesTitle}}</h1>
+  <div class="margin-23vh" style="width: 94vw; margin-left: 3vw;">
+    <h1 class="ion-text-center  border-bottom-dark-blue">{{ lowerFracturesTitle}}</h1>
     <h3>{{lowerFracturesContentTitle}}</h3>
-    <ul *ngFor="let content of lowerFracturesContent">
-      <li>{{content}}</li>
+    <ul>
+      <li *ngFor="let content of lowerFracturesContent">{{content}}</li>
     </ul>
   </div>
 </ion-content>
