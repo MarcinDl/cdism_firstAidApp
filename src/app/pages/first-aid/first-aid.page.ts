@@ -9,6 +9,7 @@ import { Router } from '@angular/router'
 export class FirstAidPage implements OnInit {
   public title = firstAidContentTitle;
   public lists = firstAidContentList;
+
   constructor(private router: Router) { }
 
   ngOnInit() {

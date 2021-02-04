@@ -9,7 +9,7 @@
         <svg width="10" height="10">
           <rect width="10" height="10" style="fill:rgb(0,0,0);" />
         </svg>
-        {{ question.question | uppercase}}
+        {{ 'questions.question_'+(i+1) | translate| uppercase}} 
       </ion-col>
       <ion-col style="display: flex; align-items:center;" size="1">      
         <svg class="triangle" [ngClass]="question.showed == true ? 'triangle-down': 'none' " x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" >
@@ -18,9 +18,8 @@
       </ion-col>
     </ion-row>
     <div *ngIf="question.showed" [ngClass]="'showed-slowly'" style="text-align: justify; margin: 15px 0; line-height: 25px;">
-      <div [innerHTML]="question.answer"></div>
+      <div [innerHTML]="'questions.answer_'+(i+1) | translate"></div>
     </div>
   </div>
 </ion-grid>
-
 </ion-content>

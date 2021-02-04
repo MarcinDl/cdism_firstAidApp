@@ -7,14 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { FaqPageRoutingModule } from './faq-routing.module';
 import { FaqPage } from './faq.page';
 import { SharedModule } from './../../shared/shared.module';
-
+import { TranslateModule } from '@ngx-translate/core';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
     FaqPageRoutingModule,
-    SharedModule
+    SharedModule,
+    TranslateModule
   ],
   declarations: [FaqPage],
   // schemas: [CUSTOM_ELEMENTS_SCHEMA]

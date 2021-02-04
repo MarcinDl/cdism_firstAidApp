@@ -1,0 +1,32 @@
+{
+    "HOME": {
+        "title": "first aid",
+        "cardiac_arrest": "cardiac arrest",
+        "injuries": "injuries",
+        "victim_unconscious": "victim unconscious",
+        "seizures": "seizures",
+        "safe_position": "safe position"
+    },
+    "GENERAL":{
+        "close": "Close",
+        "choose_language": "Choose a language",
+        "font_size": "Big font",
+        "contrast": "Contrast",
+        "vertical_distance": "Vertical distance",
+        "horizontal_distance": "Horizontal distance"
+    },
+    "questions": {
+        "question_1": "ABC test",
+        "answer_1": "<b>ABC test</b> – acronym of the most important activities in providing first aid to an unconscious victim. <br> <br> A (<i> Airway </i>) - unblocking the airways, e.g. with the help of the so-called forehead-mandibular mismatch. <br> <br> B (<i> Breathing </i>) - checking the breath using the see, hear, feel method (for 10 seconds you should feel at least 2 breaths). <br> <br> C (<i> Circulation </i>) - check for signs of circulation in the carotid and radial arteries. Non-medical professionals are exempt from this test, but can check the skin color and awareness of the victim.",
+        "question_2": "CPR",
+        "answer_2": "<b>CPR - Cardiopulmonary resuscitation </b> is a series of activities performed in a person suspected of having a sudden cardiac arrest. The purpose of resuscitation is to maintain blood flow through the brain and heart muscle, and to restore circulation. CPR includes chest compressions and ventilation.",
+        "question_3": "The chain of survival",
+        "answer_3": "<b> Chain of survival </b> - activities aimed at increasing survival in people with sudden cardiac arrest. This includes: <li> <i> early diagnosis of cardiac arrest </i> - includes diagnosis of cardiac arrest: apnea, loss of consciousness and a quick emergency call by calling 112 or 999. </li> <li> < i> early initiation of CPR by bystanders </i> - if bystanders start CPR immediately, survival is threefold. </li><li> <i> early defibrillation </i> - can result in survival of up to 75%. Each minute of defibrillation delay reduces the likelihood of survival by 10-12%. </li> <li> <i> Early advanced life support and proper post-resuscitation care. </i> </li>",
+        "question_4": "Defibrillation",
+        "answer_4": "<b> Defibrillation </b> - a medical procedure used during resuscitation. It consists in applying a direct current electric pulse of a specific energy through the surface of the chest or directly onto the heart muscle in order to extinguish the most serious disturbances of the heart rhythm - ventricular fibrillation (VF) and ventricular tachycardia (VT) without pulse.",
+        "question_5": "The golden hour",
+        "answer_5": "<b> Golden hour </b> - the time during which the injured person in a life-threatening condition should be in a place where it is possible to provide them with specialist help.",
+        "question_6": "AED",
+        "answer_6": "<b> AED </b> – (ang. <i>Automated External Defibrillator</i>) - a specialized, computerized device that, using voice / visual commands, guides both medically educated and non-medically educated people through the safe defibrillation procedure in an unconscious person with sudden cardiac arrest."
+    }
+}

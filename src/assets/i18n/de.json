@@ -1,0 +1,32 @@
+{
+    "HOME": {
+        "title": "erste -hilfe",
+        "cardiac_arrest": "herzstillstand",
+        "injuries": "Verletzungen",
+        "victim_unconscious": "Das Opfer ist bewusstlos",
+        "seizures": "Die Anfälle",
+        "safe_position": "Die sichere Position"
+    },
+    "GENERAL":{
+        "close": "Schließen",
+        "choose_language": "Sprache wählen",
+        "font_size": "Schrift vergrößern",
+        "contrast": "Kontrast",
+        "vertical_distance": "Vertikale Entfernung",
+        "horizontal_distance": "Horizontaler Entfernung"
+    },
+    "questions": {
+        "question_1": "ABC Test",
+        "answer_1": "<b> ABC-Untersuchung </ b> - eine Abkürzung für die wichtigsten Aktivitäten bei der Bereitstellung von Erster Hilfe für ein bewusstloses Opfer. <br> <br> A (<i> Atemwege </ i>) - Entsperren der Atemwege, z. B. mit Hilfe der sogenannten Fehlpaarung zwischen Stirn und Unterkiefer. <br> <br> B (<i> Atmen </ i>) - Überprüfen Sie den Atem mit der Methode „Sehen, Hören, Fühlen“ (10 Sekunden lang sollten Sie mindestens 2 Atemzüge spüren). <br> <br> C (<i> Zirkulation </ i>) - Überprüfen Sie die Halsschlagader und die Radialarterien auf Anzeichen von Zirkulation. Nicht-medizinische Fachkräfte sind von diesem Test ausgenommen, können jedoch die Hautfarbe und das Bewusstsein des Opfers überprüfen.",
+        "question_2": "CPR",
+        "answer_2": "<b>CPR - Herz-Lungen-Wiederbelebung </ b> ist eine Reihe von Aktivitäten, die bei einer Person durchgeführt werden, bei der der Verdacht auf einen plötzlichen Herzstillstand besteht. Der Zweck der Wiederbelebung besteht darin, den Blutfluss durch Gehirn und Herzmuskel aufrechtzuerhalten und die Durchblutung wiederherzustellen. CPR umfasst Brustkompressionen und Beatmung.",
+        "question_3": "Die Überlebenskette",
+        "answer_3": "<b>Die Überlebenskette </ b> - Aktivitäten zur Steigerung des Überlebens bei Menschen mit plötzlichem Herzstillstand. Dies beinhaltet: <li> <i> frühzeitige Diagnose eines Herzstillstands </ i> - beinhaltet die Diagnose eines Herzstillstands: Apnoe, Bewusstlosigkeit und einen schnellen Notruf unter der Rufnummer 112 oder 999. </ li> <li> <i > Frühzeitige Einleitung der CPR durch umstehende Personen </ i> - Wenn umstehende Personen die CPR sofort starten, erhöht sich die Überlebenswahrscheinlichkeit um das Dreifache. </ li> <li> <i> frühe Defibrillation </ i> - kann zu einem Überleben von bis zu 75% führen. Jede Minute Defibrillationsverzögerung verringert die Überlebenswahrscheinlichkeit um 10-12%. </ Li> <li> <i> Frühzeitige Unterstützung des fortgeschrittenen Lebens und angemessene Pflege nach Wiederbelebung. </ I> </ li> </ ul>",
+        "question_4": "Defibrillation",
+        "answer_4": "<b>Defibrillation</b> - ein medizinisches Verfahren während der Wiederbelebung. Es besteht darin, einen elektrischen Gleichstromimpuls einer bestimmten Energie durch die Oberfläche der Brust oder direkt auf den Herzmuskel anzulegen, um die schwerwiegendsten Störungen des Herzrhythmus - Kammerflimmern (VF) und ventrikuläre Tachykardie (VT) ohne zu löschen Impuls.",
+        "question_5": "Die goldene Stunde",
+        "answer_5": "<b>Die goldene Stunde</b> – die Zeit, in der sich die verletzte Person in einem lebensbedrohlichen Zustand an einem Ort befinden sollte, an dem es möglich ist, sie fachlich zu unterstützen.",
+        "question_6": "AED",
+        "answer_6": "<b> AED </b> – (ang. <i>Automated External Defibrillator</i>) Automatisierter externer Defibrillator - ein spezialisiertes, computergestütztes Gerät, das mithilfe von Sprach- / visuellen Befehlen sowohl medizinisch ausgebildete als auch nicht medizinisch ausgebildete Personen durch das sichere Defibrillationsverfahren bei einer bewusstlosen Person mit plötzlichem Herzstillstand führt."
+    }
+}

@@ -7,13 +7,15 @@ import { HeaderComponent } from '../../components/header/header.component'
 
 import { HomePageRoutingModule } from './home-routing.module';
 import { MenuComponent } from '../../components/menu/menu.component'
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    TranslateModule
   ],
   declarations: [HomePage, MenuComponent,HeaderComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

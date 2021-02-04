@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { UnconsciousPageRoutingModule } from './unconscious-routing.module';
 
 import { UnconsciousPage } from './unconscious.page';
+import { SharedModule } from './../../shared/shared.module'
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    UnconsciousPageRoutingModule
+    UnconsciousPageRoutingModule,
+    SharedModule
   ],
   declarations: [UnconsciousPage]
 })

@@ -3,7 +3,7 @@
         <ion-row style="height: 15vh; background-color:#1E73BE; color: white;" class="ion-text-center ion-align-items-center;">
             <ion-col style="display: flex; align-items: center; justify-content: center;" >
                 <img src="./../../../assets/images/cross.png" style="height: auto; width: 5%;" alt="">
-                <ion-text style="margin-left: 15px; font-size: 1.5rem; letter-spacing: 2px;">PIERWSZA POMOC</ion-text>
+                <ion-text style="margin-left: 15px; font-size: 1.5rem; letter-spacing: 2px;">{{ 'HOME.title' | translate | uppercase}}</ion-text>
             </ion-col>
         </ion-row>
         <ion-row >
@@ -15,27 +15,27 @@
     <ion-grid style="height: 80vh;position: absolute; top: 24vh; width: 100vw;">
         <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m1.png'); background-size: cover; height: 25vh; ">
             <ion-col (click)="cardialArrest()" size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; color: white; border-bottom: 3px solid white; letter-spacing: 2px;">
-                <ion-text>ZATRZYMANIE KRĄŻENIA</ion-text> 
+                <ion-text>{{ 'HOME.cardiac_arrest' | translate | uppercase}}</ion-text> 
             </ion-col>
         </ion-row>
         <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m2.png'); background-size: cover; height: 25vh; margin: 10px 0;">
             <ion-col (click)="navigateFractures()" size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; color: white; border-bottom: 3px solid white; letter-spacing: 2px;">
-                <ion-text>URAZY</ion-text> 
+                <ion-text>{{ 'HOME.injuries' | translate | uppercase}}</ion-text> 
             </ion-col>
         </ion-row>
         <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m3.png'); background-size: cover; height: 25vh; margin: 10px 0;">
             <ion-col (click)="navigateUnconscious()" size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; color: white; border-bottom: 3px solid white; letter-spacing: 2px;">
-                <ion-text>POSZKODOWANY NIEPRZYTOMNY</ion-text> 
+                <ion-text>{{ 'HOME.victim_unconscious' | translate | uppercase}}</ion-text> 
             </ion-col>
         </ion-row>
         <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m4.png'); background-size: cover; height: 25vh; margin: 10px 0;">
             <ion-col (click)="navigateFirstAid()" size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; color: white; border-bottom: 3px solid white; letter-spacing: 2px;">
-                <ion-text>DRGAWKI</ion-text> 
+                <ion-text>{{ 'HOME.seizures' | translate | uppercase}} </ion-text> 
             </ion-col>
         </ion-row>
         <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m5.png'); background-size: cover; height: 25vh; margin: 10px 0;">
             <ion-col (click)="navigateSafePosition()" size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; color: white; border-bottom: 3px solid white; letter-spacing: 2px;">
-                <ion-text>POZYCJA BEZPIECZNA</ion-text> 
+                <ion-text>{{ 'HOME.safe_position' | translate | uppercase }}</ion-text> 
             </ion-col>
         </ion-row>
         <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m6.png'); background-size: cover; height: 25vh; margin: 10px 0 30px 0;">
@@ -44,24 +44,6 @@
             </ion-col>
         </ion-row>
     </ion-grid> 
-<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-    <!-- <ion-grid class="ion-text-center">
-        <ion-icon (click)="openModal()" slot="end" name="menu-outline"></ion-icon> 
 
-        <ion-row>
-            <ion-col size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; text-transform: capitalize; color: white; border-bottom: 3px solid red;">ZATRZYMANIE KRĄŻENIA</ion-col>
-        </ion-row>
-    </ion-grid>
-    <br><br><br>
-    <div (click)="cardialArrest()">Zatrzymanie krązenia</div>
-    <br><br><br>
-    <div (click)="navigateFractures()">Urazy</div>
-    <br><br><br>
-    <div (click)="navigateUnconscious()">poszkodowany nieprzytomny</div>
-    <br><br><br>
-    <div (click)="navigateFirstAid()">Drgawki</div>
-    <br><br><br>
-    <div (click)="navigateSafePosition()">Pozycja bezpieczna</div>
-    <br><br><br>
-    <div (click)="navigateFAQ()">FAQ</div> -->
+  
 </ion-content>
