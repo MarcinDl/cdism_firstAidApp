@@ -7,14 +7,18 @@ import { IonicModule } from '@ionic/angular';
 import { CardiacArrestPageRoutingModule } from './cardiac-arrest-routing.module';
 
 import { CardiacArrestPage } from './cardiac-arrest.page';
+import { TranslateModule } from '@ngx-translate/core';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    CardiacArrestPageRoutingModule
+    CardiacArrestPageRoutingModule,
+    TranslateModule,
+    SharedModule
   ],
-  declarations: [CardiacArrestPage]
+  declarations: [CardiacArrestPage],
 })
 export class CardiacArrestPageModule {}
