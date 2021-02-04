@@ -10,13 +10,35 @@
     </ion-toolbar>
   </ion-header> -->
 
-  <ion-grid style="margin-top: 5vh;">
-    <ion-col>
-      <ul *ngFor="let list of lists">
-    
-        <li>{{ list }}</li>
-      </ul>
-    </ion-col>
-    
+  <ion-grid style="margin-top: 23vh;height: 77vh;">
+    <ion-row>
+      <ion-col>
+        <h1 class="ion-text-center  border-bottom-dark-blue">Pierwsza pomoc - drgawki</h1>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="border-bottom-light-grey">
+        <ion-text style="color: red; font-size: 1.2rem;">Podstawowe zasady:</ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ul>
+          <li *ngFor="let list of lists_1">{{ list }}</li>
+        </ul>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="border-bottom-light-grey">
+        <ion-text style="color: red; font-size: 1.2rem;">Pamiętaj o:</ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ul>
+          <li *ngFor="let list of lists_2">{{ list }}</li>
+        </ul>
+      </ion-col>
+    </ion-row>
   </ion-grid>
 </ion-content>
