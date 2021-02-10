@@ -14,7 +14,9 @@ export class UnconsciousPage implements OnInit {
 
   public slideOpts = {
     centeredSlides: true,
+    // initialSlide: 1,
+    // speed: 200,
     // spaceBetween: 10,
-    // slidesPerView: 1.6
+    slidesPerView: 1
   }
 }

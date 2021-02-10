@@ -4,6 +4,7 @@ import {
   NativeTransitionOptions,
 } from "@ionic-native/native-page-transitions/ngx";
 import { Router } from "@angular/router";
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -14,7 +15,6 @@ export class HeaderComponent implements OnInit {
   constructor(
     private NativePageTransitions: NativePageTransitions,
     private router: Router,
-
   ) { }
 
   ngOnInit() {}

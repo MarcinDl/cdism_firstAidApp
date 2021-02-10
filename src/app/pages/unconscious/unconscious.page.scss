@@ -1,7 +1,7 @@
 ion-slides {
-  // height: 100%;
-  min-height: 75vh;
-  max-height: 75vh;
+  height: 100%;
+  min-height: 50vh;
+  max-height: 50vh;
   ol{
     overflow: auto;
     background-color: red;
@@ -11,7 +11,6 @@ ion-slides {
       
     li{
       // list-style-type: none;
-
     }
   }
 }
