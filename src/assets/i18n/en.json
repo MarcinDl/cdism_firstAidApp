@@ -5,7 +5,8 @@
         "injuries": "injuries",
         "victim_unconscious": "victim unconscious",
         "seizures": "seizures",
-        "safe_position": "safe position"
+        "safe_position": "safe position",
+        "burns":"burns"
     },
     "GENERAL":{
         "close": "Close",
@@ -14,7 +15,8 @@
         "contrast": "Contrast",
         "vertical_distance": "Vertical distance",
         "horizontal_distance": "Horizontal distance",
-        "back": "back"
+        "back": "back",
+        "first_aid": "first aid"
     },
     "questions": {
         "question_1": "ABC test",
@@ -44,5 +46,15 @@
         "answer_5": "<b>Złota godzina</b> – czas, w jakim poszkodowany w stanie zagrożenia życia powinien znaleźć się w miejscu, gdzie możliwe jest udzielenie mu specjalistycznej pomocy.",
         "question_6": "AED",
         "answer_6": "<b> AED </b> – (ang. <i>Automated External Defibrillator</i>) Automatyczny Defibrylator Zewnętrzny – specjalistyczne, skomputeryzowane urządzenie, które za pomocą poleceń głosowych/wizualnych prowadzi zarówno osoby z wykształceniem medycznym, jak i bez niego przez procedurę bezpiecznej defibrylacji u osoby nieprzytomnej z nagłym zatrzymaniem krążenia."
+    },
+    "burns":{
+        "title": "burns",
+        "degrees": "burn degrees",
+        "degrees_1": "1st degree - redness, swelling, burning",
+        "degrees_2": "2nd degree - redness, swelling, blisters filled with serum fluid",
+        "degrees_3": "3rd degree - deep tissue damage, the victim often feels no pain",
+        "procedure": "Procedure:",
+        "procedure_1": "The 3x15 rule",
+        "procedure_2": "cooling the exhibition with water at a temperature of about 15 ° C from a distance of 15 cm for about 15 minutes."
     }
 }

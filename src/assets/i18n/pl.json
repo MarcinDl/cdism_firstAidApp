@@ -5,7 +5,8 @@
         "injuries": "urazy",
         "victim_unconscious": "poszkodowany nieprzytomny",
         "seizures": "drgawki",
-        "safe_position": "pozycja bezpieczna"
+        "safe_position": "pozycja bezpieczna",
+        "burns":"oparzenia"
     },
     "GENERAL":{
         "close": "Zamknij",
@@ -14,7 +15,8 @@
         "contrast": "Kontrast",
         "vertical_distance": "Odstęp pionowy",
         "horizontal_distance": "Odstęp poziomy",
-        "back": "powrót"
+        "back": "powrót",
+        "first_aid": "pierwsza pomoc"
     },
     "questions": {
         "question_1": "Badanie ABC",
@@ -44,5 +46,15 @@
         "answer_5": "<b>Złota godzina</b> – czas, w jakim poszkodowany w stanie zagrożenia życia powinien znaleźć się w miejscu, gdzie możliwe jest udzielenie mu specjalistycznej pomocy.",
         "question_6": "AED",
         "answer_6": "<b> AED </b> – (ang. <i>Automated External Defibrillator</i>) Automatyczny Defibrylator Zewnętrzny – specjalistyczne, skomputeryzowane urządzenie, które za pomocą poleceń głosowych/wizualnych prowadzi zarówno osoby z wykształceniem medycznym, jak i bez niego przez procedurę bezpiecznej defibrylacji u osoby nieprzytomnej z nagłym zatrzymaniem krążenia."
+    },
+    "burns":{
+        "title": "oparzenia",
+        "degrees": "Stopnie oparzeń",
+        "degrees_1": "I stopnia – zaczerwienienie, obrzęk, pieczenie",
+        "degrees_2": "II stopnia – zaczerwienienie, obrzęk, pęcherze wypełnione płynem surowiczym",
+        "degrees_3": "III stopnia – głębokie uszkodzenie tkanek, poszkodowany często nie odczuwa bólu", 
+        "procedure": "Postępowanie:",
+        "procedure_1": "Zasada 3x15",
+        "procedure_2": "Schładzanie ekspozycji wodą o temperaturze około  15C  z odległości  15 cm przez około 15 min."
     }
 }

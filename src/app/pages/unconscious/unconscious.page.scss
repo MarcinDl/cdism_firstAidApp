@@ -4,13 +4,8 @@ ion-slides {
   max-height: 50vh;
   ol{
     overflow: auto;
-    background-color: red;
     height: 215px;
-          padding: 0;
-      margin: 0;
-      
-    li{
-      // list-style-type: none;
-    }
+    padding: 0;
+    margin: 0;
   }
 }

@@ -1,0 +1,40 @@
+<ion-content>
+  <app-header></app-header>
+  <ion-grid style="margin-top: 23vh;height: 77vh;">
+    <ion-row>
+      <ion-col>
+        <h1 class="ion-text-center border-bottom-dark-blue">
+          {{ 'burns.title' | translate | uppercase}} 
+        </h1>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="border-bottom-light-grey">
+        <ion-text style="color:red">{{ 'burns.degrees' | translate | uppercase}} </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ul>
+        <li>{{ 'burns.degrees_1' | translate }} </li>
+        <li>{{ 'burns.degrees_2' | translate }} </li>
+        <li>{{ 'burns.degrees_3' | translate }} </li>
+      </ul>
+    </ion-row>
+    <ion-row>
+      <ion-col class="border-bottom-light-grey">
+        <ion-text style="color:red">{{ 'burns.procedure' | translate | uppercase}} </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ul>
+        <li>{{ 'burns.procedure_1' | translate }} </li>
+        <li>{{ 'burns.procedure_2' | translate }} </li>
+      </ul>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <img src="./../../../assets/images/burns/burns_01.png" style="width: 100%; height: auto" alt="">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

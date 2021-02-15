@@ -5,7 +5,8 @@
         "injuries": "Verletzungen",
         "victim_unconscious": "Das Opfer ist bewusstlos",
         "seizures": "Die Anfälle",
-        "safe_position": "Die sichere Position"
+        "safe_position": "Die sichere Position",
+        "burns":"Die Verbrennungen"
     },
     "GENERAL":{
         "close": "Schließen",
@@ -14,7 +15,8 @@
         "contrast": "Kontrast",
         "vertical_distance": "Vertikale Entfernung",
         "horizontal_distance": "Horizontaler Entfernung",
-        "back": "zurück"
+        "back": "zurück",
+        "first_aid": "Erste Hilfe"
     },
     "questions": {
         "question_1": "ABC Test",
@@ -44,5 +46,15 @@
         "answer_5": "<b>Złota godzina</b> – czas, w jakim poszkodowany w stanie zagrożenia życia powinien znaleźć się w miejscu, gdzie możliwe jest udzielenie mu specjalistycznej pomocy.",
         "question_6": "AED",
         "answer_6": "<b> AED </b> – (ang. <i>Automated External Defibrillator</i>) Automatyczny Defibrylator Zewnętrzny – specjalistyczne, skomputeryzowane urządzenie, które za pomocą poleceń głosowych/wizualnych prowadzi zarówno osoby z wykształceniem medycznym, jak i bez niego przez procedurę bezpiecznej defibrylacji u osoby nieprzytomnej z nagłym zatrzymaniem krążenia."
+    },
+    "burns":{
+        "titel": "Die Verbrennungen",
+        "degrees": "Brennen Grad",
+        "degrees_1": "I - Rötung, Schwellung, Brennen",
+        "degrees_2": "II - Rötung, Schwellung, mit Serumflüssigkeit gefüllte Blasen",
+        "degrees_3": "III - tiefe Gewebeschädigung, das Opfer fühlt oft keine Schmerzen",
+        "procedure": "Die Prozedur:",
+        "procedure_1": "Die 3x15-Regel",
+        "procedure_2": "Abkühlen des Displays mit Wasser bei einer Temperatur von ca. 15 ° C aus einem Abstand von 15 cm für ca. 15 Minuten."
     }
 }

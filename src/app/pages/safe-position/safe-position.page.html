@@ -1,9 +1,19 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>safePosition</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
-  Tu będzie filmik
+  <ion-content>
+    <app-header></app-header>
+    <ion-grid style="margin-top: 23vh;height: 77vh;">
+      <ion-row>
+        <ion-col>
+          <h1 class="ion-text-center  border-bottom-dark-blue">Pierwsza pomoc - drgawki</h1>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <!-- <video srsc="./../../../assets/video/pozycja_bezpieczna.mp4"></video> -->
+          <video style="height: auto; width: 100%;" webkit-playsinline  playsinline autoplay>
+            <source src="./../../../assets/video/pozycja_bezpieczna.mp4" type="video/mp4">
+          </video>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
 </ion-content>

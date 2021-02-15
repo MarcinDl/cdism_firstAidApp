@@ -40,6 +40,11 @@
                 <ion-text>{{ 'HOME.safe_position' | translate | uppercase }}</ion-text> 
             </ion-col>
         </ion-row>
+        <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m5.png'); background-size: cover; height: 25vh; margin: 10px 0;">
+            <ion-col (click)="navigateBurns()" size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; color: white; border-bottom: 3px solid white; letter-spacing: 2px;">
+                <ion-text>{{ 'HOME.burns' | translate | uppercase }}</ion-text> 
+            </ion-col>
+        </ion-row>
         <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m6.png'); background-size: cover; height: 25vh; margin: 10px 0 30px 0;">
             <ion-col (click)="navigateFAQ()" size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; color: white; border-bottom: 3px solid white; letter-spacing: 2px;">
                 <ion-text>FAQ</ion-text> 
