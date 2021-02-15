@@ -56,5 +56,14 @@
         "procedure": "Die Prozedur:",
         "procedure_1": "Die 3x15-Regel",
         "procedure_2": "Abkühlen des Displays mit Wasser bei einer Temperatur von ca. 15 ° C aus einem Abstand von 15 cm für ca. 15 Minuten."
+    },
+    "cardiac_arrest":{
+        "title": "Herzstillstand",
+        "title_1": {
+            "title": "Eigene Sicherheits- und Unfallstelle",
+            "info_1": "Überprüfen der Reaktion - <b>'Hallo, hören Sie mich'</ b> und stellen Sie jemanden zur Verfügung, der Ihnen hilft.",
+            "info_2": "Zweitens, nachdem wir uns dem Opfer genähert haben, überprüfen wir die Reaktion auf die Stimme, indem wir deutlich sprechen - <b> Hallo! Kannst du mich hören? </ b> - wenn das Opfer nicht reagiert, schüttle es vorsichtig Schultern.",
+            "info_3": "Bevor wir sicherstellen, dass das Opfer bewusstlos ist und unsere Hilfe benötigt, kümmern wir uns um unsere eigene Sicherheit und den Ort des Ereignisses und stellen sicher, dass nichts uns oder das Opfer bedroht!"
+        }
     }
 }

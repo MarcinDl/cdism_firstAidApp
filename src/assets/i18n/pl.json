@@ -56,5 +56,23 @@
         "procedure": "Postępowanie:",
         "procedure_1": "Zasada 3x15",
         "procedure_2": "Schładzanie ekspozycji wodą o temperaturze około  15C  z odległości  15 cm przez około 15 min."
+    },
+    "cardiac_arrest":{
+        "title": "Zatrzymanie krążenia",
+        "title_1": {
+            "title": "Bezpieczeństwo własne i miejsca zdarzenia",
+            "info_1": "Sprawdzenie reakcji – <b>„Halo czy Pan/Pani mnie słyszy”</b> i zapewnienie sobie kogoś do pomocy.",
+            "info_2": "W drugiej kolejności po podejściu do poszkodowanego sprawdźmy reakcję na głos mówiąc wyraźnie – <b>Halo! czy Pan/Pani mnie słyszy?</b> – jeśli brak reakcji ze strony poszkodowanego delikatnie potrząsamy go za ramiona.",
+            "info_3": "Zanim upewnimy się, że poszkodowany jest nieprzytomny i potrzebuje naszej pomocy zadbajmy o bezpieczeństwo własne i miejsca zdarzenia upewniając się, że nic nie zagraża nam i poszkodowanemu! "
+        },
+        "title_2": {
+            "title": "Badanie ABC",
+            "info_1": "Jeżeli nie uzyskaliśmy żadnej informacji zwrotnej od poszkodowanego, zapewnijmy sobie kogoś do pomocy, a w kolejnym etapie zbadajmy chorego według prostego schematu ABC, tak aby upewnić się co do jego stanu zdrowia.",
+            "info_2": "A (airway) drożność dróg oddechowych – odegnijmy delikatnie głowę do tyłu (chwyt czoło-żuchwa), tak aby udrożnić drogi oddechowe.",
+            "info_3": "B (breathing) – zbadajmy oddech przez 10 sekund na zasadzie: widzę, słyszę, czuję (w ciągu 10 sekund powinniśmy wyczuć przynajmniej dwa pełne oddechy).",
+            "info_4": "C (circulation) – jeśli mamy w tym doświadczenie zbadajmy obecność tętna (krążenia) na tętnicy szyjnej i tętnicy promieniowej."
+        }
+        
+
     }
 }

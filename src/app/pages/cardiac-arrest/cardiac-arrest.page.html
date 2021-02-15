@@ -10,19 +10,14 @@
       <ion-grid>
         <ion-row>
           <ion-col class="border-bottom-light-grey">
-            <ion-text style="color: red; font-size: 1.2rem;">Bezpieczeństwo własne i miejsca zdarzenia </ion-text>
+            <ion-text style="color: red; font-size: 1.2rem;">{{  'cardiac_arrest.title_1.title' | translate }}</ion-text>
           </ion-col>
         </ion-row>
         <ion-row>
           <ion-col>
-            <div>Sprawdzenie reakcji – <b>„Halo czy Pan/Pani mnie słyszy”</b> i zapewnienie sobie kogoś
-              do pomocy.</div>
-              <div>
-                W drugiej kolejności po podejściu do poszkodowanego sprawdźmy reakcję na głos mówiąc wyraźnie – <b>Halo!
-                czy Pan/Pani mnie słyszy?</b> – jeśli brak reakcji ze strony poszkodowanego delikatnie potrząsamy go za ramiona.
-              </div>
-              <div>Zanim upewnimy się, że poszkodowany jest nieprzytomny i potrzebuje naszej pomocy zadbajmy o bezpieczeństwo własne i miejsca zdarzenia upewniając się, że nic nie zagraża nam i poszkodowanemu! 
-              </div>
+            <p [innerHTML]="'cardiac_arrest.title_1.info_1' | translate">  </p>
+            <p [innerHTML]="'cardiac_arrest.title_1.info_2' | translate">  </p>
+            <p [innerHTML]="'cardiac_arrest.title_1.info_3' | translate">  </p>
               <div>  
                 <img src="./../../assets/images/1_bezpieczenstwo_ wlasne.jpg" style="width: 100%; height: auto; padding: 0; margin: 0;" alt="">
               </div>
@@ -35,17 +30,17 @@
       <ion-grid>
         <ion-row>
           <ion-col class="border-bottom-light-grey">
-            <ion-text style="color: red; font-size: 1.2rem;">Badanie ABC</ion-text>
+            <ion-text style="color: red; font-size: 1.2rem;">{{  'cardiac_arrest.title_2.title' | translate }}</ion-text>
           </ion-col>
         </ion-row>
         <ion-row>
           <ion-col>
-            <div>Jeżeli nie uzyskaliśmy żadnej informacji zwrotnej od poszkodowanego, zapewnijmy sobie kogoś do pomocy, a w kolejnym etapie zbadajmy chorego według prostego schematu ABC, tak aby upewnić się co do jego stanu zdrowia.</div>
+            <div [innerHTML]="'cardiac_arrest.title_1.info_1' | translate "></div>
               <div>
                 <ul>
-                  <li>A (airway) drożność dróg oddechowych – odegnijmy delikatnie głowę do tyłu (chwyt czoło-żuchwa), tak aby udrożnić drogi oddechowe.</li>
-                  <li>B (breathing) – zbadajmy oddech przez 10 sekund na zasadzie: widzę, słyszę, czuję (w ciągu 10 sekund powinniśmy wyczuć przynajmniej dwa pełne oddechy).</li>
-                  <li>C (circulation) – jeśli mamy w tym doświadczenie zbadajmy obecność tętna (krążenia) na tętnicy szyjnej i tętnicy promieniowej.</li>
+                  <li>{{  'cardiac_arrest.title_2.info_2' | translate }}</li>
+                  <li>{{  'cardiac_arrest.title_2.info_3' | translate }}</li>
+                  <li>{{  'cardiac_arrest.title_2.info_4' | translate }}</li>
                 </ul>
               </div>
               <div>  

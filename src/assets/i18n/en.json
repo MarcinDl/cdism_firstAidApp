@@ -56,5 +56,21 @@
         "procedure": "Procedure:",
         "procedure_1": "The 3x15 rule",
         "procedure_2": "cooling the exhibition with water at a temperature of about 15 ° C from a distance of 15 cm for about 15 minutes."
+    },
+    "cardiac_arrest": {
+        "title": "Cardiac arrest",
+        "title_1": {
+            "title": "Your own safety and accident place",
+            "info_1": "Check the reaction - <b> 'Hello, do you hear me' </b> - ask someone to help you.",
+            "info_2": "Second, after we have approached the victim, we check the reaction to the voice by speaking clearly - <b> Hello! Can you hear me? </b> - if the victim does not react, shake his/her shoulders carefully. ",
+            "info_3": "Before we make sure that the victim is unconscious and needs our help, we take care of our own safety and the location of the incident and make sure that nothing threatens us or the victim!"
+        },
+        "title_2": {
+            "title": "ABC test",
+            "info_1": "If we have not received any feedback from the victim, let us arrange someone to help us, and in the next stage let us examine the patient according to a simple ABC scheme, so as to be sure about his health.",
+            "info_2": "A (airway) airway patency - let's slightly tilt the head back (forehead-mandibular grip) so as to open the airway.",
+            "info_3": "B (breathing) - let's examine the breath for 10 seconds, basically: I can see, hear, feel (within 10 seconds we should feel at least two full breaths).",
+            "info_4": "C (circulation) - if we have experience in it, let's examine the presence of heart rate (circulation) in the carotid and radial arteries."
+        }
     }
 }
