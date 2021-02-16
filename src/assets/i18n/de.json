@@ -64,6 +64,26 @@
             "info_1": "Überprüfen der Reaktion - <b>'Hallo, hören Sie mich'</ b> und stellen Sie jemanden zur Verfügung, der Ihnen hilft.",
             "info_2": "Zweitens, nachdem wir uns dem Opfer genähert haben, überprüfen wir die Reaktion auf die Stimme, indem wir deutlich sprechen - <b> Hallo! Kannst du mich hören? </ b> - wenn das Opfer nicht reagiert, schüttle es vorsichtig Schultern.",
             "info_3": "Bevor wir sicherstellen, dass das Opfer bewusstlos ist und unsere Hilfe benötigt, kümmern wir uns um unsere eigene Sicherheit und den Ort des Ereignisses und stellen sicher, dass nichts uns oder das Opfer bedroht!"
+        },
+        "title_2": {
+            "Titel": "ABC-Test",
+            "info_1": "Wenn wir keine Rückmeldung vom Opfer erhalten haben, lassen Sie uns jemanden beauftragen, uns zu helfen, und im nächsten Schritt den Patienten nach einem einfachen ABC-Schema untersuchen, um sicherzugehen, dass er gesund ist. ",
+            "info_2": "Durchgängigkeit der Atemwege (Atemwege) - Kippen wir den Kopf leicht nach hinten (Stirn-Unterkiefer-Griff), um die Atemwege zu öffnen.",
+            "info_3": "B (Atmung) - Lassen Sie uns den Atem 10 Sekunden lang untersuchen, im Grunde: Ich kann sehen, hören, fühlen (innerhalb von 10 Sekunden sollten wir mindestens zwei volle Atemzüge fühlen).",
+            "info_4": "C (Kreislauf) - Wenn wir Erfahrung damit haben, untersuchen wir das Vorhandensein von Herzfrequenz (Kreislauf) in den Halsschlag- und Radialarterien."
+        },
+        "title_3": {
+            "title": "Das Opfer atmet nicht und es gibt keine Anzeichen von Zirkulation",
+            "info_1": "Das Opfer atmet nicht und es gibt keine Anzeichen von Zirkulation.",
+            "info_2": "Qualifizierte Hilfe anrufen - Es ist Zeit, qualifizierte Hilfe anzurufen, indem Sie eine der Notrufnummern (112/999) anrufen."
+        },
+        "title_4": {
+            "Titel": "Herz-Lungen-Wiederbelebung im 30: 2-Schema",
+            "info_1": "Greifen Sie auf den AED zu und fahren Sie sofort mit der HLW fort, die aus Brustkompressionen und Rettungsatemzügen im 30: 2-Muster besteht. Drücken Sie 30-mal (5-6 cm tief) fest und schnell, Frequenz 100-120 / min. Atemzüge sollten zweimal durchgeführt werden (damit sie die Atemwege wieder öffnen. Jeder Atemzug sollte etwa 1 Sekunde dauern, bis sich die Brust hebt). Verwenden Sie nach Möglichkeit eine Folienmaske oder eine Taschenmaske, um Ihre Sicherheit zu erhöhen. "
+        },
+        "title_5": {
+            "Titel": "Frühe Defibrillation",
+            "info_1": "Wenn der AED verfügbar ist, schalten Sie ihn so schnell wie möglich ein und befolgen Sie die Anweisungen."
         }
     }
 }

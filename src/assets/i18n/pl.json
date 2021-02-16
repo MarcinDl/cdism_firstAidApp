@@ -71,6 +71,19 @@
             "info_2": "A (airway) drożność dróg oddechowych – odegnijmy delikatnie głowę do tyłu (chwyt czoło-żuchwa), tak aby udrożnić drogi oddechowe.",
             "info_3": "B (breathing) – zbadajmy oddech przez 10 sekund na zasadzie: widzę, słyszę, czuję (w ciągu 10 sekund powinniśmy wyczuć przynajmniej dwa pełne oddechy).",
             "info_4": "C (circulation) – jeśli mamy w tym doświadczenie zbadajmy obecność tętna (krążenia) na tętnicy szyjnej i tętnicy promieniowej."
+        },
+        "title_3": {
+            "title": "Poszkodowany nie oddycha i nie ma oznak krążenia",
+            "info_1": "Poszkodowany nie oddycha i nie ma oznak krążenia.",
+            "info_2": "Wezwanie kwalifikowanej pomocy - to czas by wezwać kwalifikowaną pomoc dzwoniąc pod jeden z numerów alarmowych (112/999)"
+        },
+        "title_4": {
+            "title": "Resuscytacja krążeniowo-oddechowa w schemacie 30:2",
+            "info_1": "Nalezy zapewnić sobie dostęp do urządzenia AED oraz przystąpić niezwłocznie do wykonywania resuscytacji krążeniowo-oddechowej, na którą składają się uciski klatki piersiowej i oddechy ratownicze w schemacie 30:2. Uciskaj mocno i szybko 30 razy (głębokość 5-6 cm, częstość 100-120/min.). Oddechy natomiast wykonaj 2 razy (by je wykonać udrożnij ponownie drogi oddechowe. Każdy oddech powinien trwać ok. 1 sekundę, do momentu uniesienia się klatki piersiowej) Jeśli to możliwe skorzystaj z maseczki foliowej lub pocket mask by zwiększyć swoje bezpieczeństwo."
+        },
+        "title_5": {
+            "title": "Wczesna defibrylacja",
+            "info_1": "Gdy urządzenie AED będzie dostępne, należy je jak najszybciej uruchomić i postępować zgodnie z jego poleceniami."
         }
         
 

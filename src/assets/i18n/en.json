@@ -71,6 +71,19 @@
             "info_2": "A (airway) airway patency - let's slightly tilt the head back (forehead-mandibular grip) so as to open the airway.",
             "info_3": "B (breathing) - let's examine the breath for 10 seconds, basically: I can see, hear, feel (within 10 seconds we should feel at least two full breaths).",
             "info_4": "C (circulation) - if we have experience in it, let's examine the presence of heart rate (circulation) in the carotid and radial arteries."
+        },
+        "title_3": {
+            "title": "The victim is not breathing and there is no sign of circulation",
+            "info_1": "The victim is not breathing and there is no sign of circulation.",
+            "info_2": "Calling qualified help - it's time to call qualified help by calling one of the emergency numbers (112/999)"
+        },
+        "title_4": {
+            "title": "Cardiopulmonary resuscitation in the 30: 2 scheme",
+            "info_1": "access the AED and proceed immediately with CPR, which consists of chest compressions and rescue breaths in a 30: 2 pattern. Compress firmly and quickly 30 times (5-6 cm deep) , frequency 100-120 / min.). Breaths should be performed 2 times (to make them open the airway again. Each breath should last about 1 second, until the chest rises) If possible, use a foil mask or pocket mask to increase your security. "
+        },
+        "title_5": {
+            "title": "Early Defibrillation",
+            "info_1": "When the AED is available, power it up as soon as possible and follow its instructions."
         }
     }
 }
