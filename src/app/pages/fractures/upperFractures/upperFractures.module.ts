@@ -7,12 +7,14 @@ import { IonicModule } from '@ionic/angular';
 import { upperFracturesPageRoutingModule } from './upperFractures-routing.module';
 
 import { upperFracturesPage } from './upperFractures.page';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    TranslateModule,
     upperFracturesPageRoutingModule
   ],
   declarations: [upperFracturesPage]

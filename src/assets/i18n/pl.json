@@ -85,7 +85,36 @@
             "title": "Wczesna defibrylacja",
             "info_1": "Gdy urządzenie AED będzie dostępne, należy je jak najszybciej uruchomić i postępować zgodnie z jego poleceniami."
         }
-        
-
+    },
+    "generalFractures": {
+        "title": "Złamania i zwichnięcia",
+        "symptoms" : {
+            "title": "Objawy:",
+            "info_1": "ból, obrzęk",
+            "info_2": "zaczerwienienie, zblednięcie lub zasinienie",
+            "info_3": "deformacja - zmiana kształtu kończyny",
+            "info_4": "ograniczenie ruchomości kończyny, nienaturalna ruchomość",
+            "info_5": "drętwienie, zaburzenia czucia za miejscem złamania",
+            "info_6": "rana, krwawienie, widoczne odłamy kostne w przypadku złamania otwartego"
+        },
+        "forbidden": {
+            "title": "Nie należy:",
+            "info_1": "nie przenoś i nie obracaj poszkodowanego do momentu unieruchomienia kończyny",
+            "info_2": "nie poruszaj złamaną kończyną i nie próbuj jej nastawiać",
+            "info_3": "nie podawaj choremu jedzenia i picia",
+            "info_4": "nie pozostawiaj poszkodowanej osoby samej"
+        }
+    },
+    "upperFractures": {
+        "title": "Złamania, zwichnięcia i skręcenia kończyny górnej",
+        "whatToDo": {
+            "title": "Objawy",
+            "info_1": "W sytuacji kiedy urazowi uległ obojczyk lub ramię posadź poszkodowanego na stołku.Ułóż zranioną rękę na jego brzuchu zginając ją delikatnie w łokciu pod kątem ok 90 stopni.Chory przytrzymuje drugą ręką chorą kończynę.",
+            "info_2": "Przy pomocy chusty trójkątnej wykonaj temblak.Podsuń chustę pod chorą rękę poszkodowanego tak by wierzchołek trójkąta znajdował się przy łokciu.Dwa pozostałe rogi zawiąż na karku chorego.Jeśli nie masz do dyspozycji chusty trójkątnej możesz wykorzystać np.szalik, bandaż.Zawiąż go na szyi i podwieś chorą rękę za nadgarstek.",
+            "info_3": "W sytuacji kiedy urazowi uległo przedramię lub nadgarstek w pierwszej kolejności unieruchom kończynę od łokcia do dłoni przy pomocy czegoś sztywnego(listewka, kilkukrotnie złożona gazeta).Stabilizator przymocuj bandażem, a dopiero potem podwieś kończynę na temblaku.",
+            "info_4": "W przypadku urazu łokcia ustabilizuj kończynę w pozycji jakiej się ona znajduje - nie zginaj jej i nie prostuj.",
+            "info_5": "Skontaktuj się z dyspozytorem medycznym: 999, 112.",
+            "info_6": "'Gdy złamaniu ulega palec dłoni przymocuj go np.plastrem do palca sąsiedniego, a następnie  połóż na czymś sztywnym całą dłoń(książka, deseczka) i owiń całość bandażem.Poszkodowany powinien zgłosić się do szpitala, lub poradni gdzie pomocy udzieli mu chirurg ortopeda."
+        }
     }
 }

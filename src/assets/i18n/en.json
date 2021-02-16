@@ -2,7 +2,7 @@
     "HOME": {
         "title": "first aid",
         "cardiac_arrest": "cardiac arrest",
-        "injuries": "injuries",
+        "injuries": "fractures",
         "victim_unconscious": "victim unconscious",
         "seizures": "seizures",
         "safe_position": "safe position",
@@ -84,6 +84,37 @@
         "title_5": {
             "title": "Early Defibrillation",
             "info_1": "When the AED is available, power it up as soon as possible and follow its instructions."
+        }
+    },
+    "generalFractures": {
+        "title": "Fractures and Dislocations",
+        "symptoms": {
+            "title": "Symptoms:",
+            "info_1": "pain, swelling",
+            "info_2": "redness, turning pale or blue",
+            "info_3": "deformation - change of limb shape",
+            "info_4": "limb mobility restricted, unnatural mobility",
+            "info_5": "numbness, sensory disturbance behind the fracture site",
+            "info_6": "wound, bleeding, visible bone fragments in case of an open fracture"
+        },
+        "forbidden": {
+            "title": "You shouldn't:",
+            "info_1": "do not move and turn the injured person until the limb is immobilized",
+            "info_2": "don't move the broken limb and don't try to adjust it",
+            "info_3": "do not give the sick person food or drink",
+            "info_4": "do not leave the injured person alone"
+        }
+    },
+    "upperFractures": {
+        "title": "Fractures, sprains and sprains of the upper limb",
+        "whatToDo": {
+            "title": "Symptoms",
+            "info_1": "In a situation where the collarbone or arm is injured, place the injured hand on a stool. Place the injured hand on his stomach bending it gently in the elbow at an angle of about 90 degrees. The patient holds the affected limb with the other hand.",
+            "info_2": "Use a triangular scarf to make a sling. Put the scarf under the injured's arm so that the tip of the triangle is at the elbow. Tie the other two corners at the patient's neck. If you do not have a triangular scarf, you can use e.g. a scarf, bandage. Tie it around your neck and hang the diseased hand by the wrist. ",
+            "info_3": "In a situation where the forearm or wrist was injured, first fix the limb from the elbow to the hand with something stiff (a lath, newspaper folded several times). Fix the stabilizer with a bandage, and then hang the limb on a sling.",
+            "info_4": "In case of elbow injury, stabilize the limb in the position it is in - do not bend it and straighten it.",
+            "info_5": "Contact the medical dispatcher: 999, 112.",
+            "info_6": "'When a finger is broken, attach it to an adjacent finger with a plaster, for example, and then place the whole hand on something stiff (a book, a board) and wrap it with a bandage. The victim should report to the hospital or clinic where help will be provided him an orthopedic surgeon. "
         }
     }
 }

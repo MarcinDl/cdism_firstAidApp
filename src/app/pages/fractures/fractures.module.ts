@@ -8,11 +8,13 @@ import { fracturesPageRoutingModule } from './fractures-routing.module';
 
 import { fracturesPage } from './fractures.page';
 import { SharedModule } from './../../shared/shared.module';
+import { TranslateModule } from '@ngx-translate/core';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    TranslateModule,
     fracturesPageRoutingModule,
     SharedModule
   ],

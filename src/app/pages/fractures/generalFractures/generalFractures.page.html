@@ -1,14 +1,21 @@
 <ion-content >
   <div class="margin-23vh" style="width: 94vw; margin-left: 3vw;">
-    <h2 class="ion-text-center border-bottom-dark-blue">{{generalFracturesTitle}}</h2>
-    <h4>{{symptomsTitle}}</h4>
+    <h2 class="ion-text-center border-bottom-dark-blue">{{ 'generalFractures.title' | translate }}</h2>
+    <h4>{{ 'generalFractures.symptoms.title' | translate }}</h4>
     <ul>
-      <li *ngFor="let symptom of symptoms">{{symptom}}</li>
+      <li> {{ 'generalFractures.symptoms.info_1' | translate }}</li>
+      <li> {{ 'generalFractures.symptoms.info_2' | translate }}</li>
+      <li> {{ 'generalFractures.symptoms.info_3' | translate }}</li>
+      <li> {{ 'generalFractures.symptoms.info_4' | translate }}</li>
+      <li> {{ 'generalFractures.symptoms.info_5' | translate }}</li>
+      <li> {{ 'generalFractures.symptoms.info_6' | translate }}</li>
     </ul>
-  
-    <h3>{{forbiddenActsTitle}}</h3>
+    <h4>{{ 'generalFractures.forbidden.title' | translate }}</h4>
     <ul>
-      <li *ngFor="let forbiddenAct of forbiddenActs">{{forbiddenAct}}</li>
+      <li> {{ 'generalFractures.forbidden.info_1' | translate }}</li>
+      <li> {{ 'generalFractures.forbidden.info_2' | translate }}</li>
+      <li> {{ 'generalFractures.forbidden.info_3' | translate }}</li>
+      <li> {{ 'generalFractures.forbidden.info_4' | translate }}</li>
     </ul>
   </div>
 </ion-content>

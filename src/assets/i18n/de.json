@@ -85,5 +85,36 @@
             "Titel": "Frühe Defibrillation",
             "info_1": "Wenn der AED verfügbar ist, schalten Sie ihn so schnell wie möglich ein und befolgen Sie die Anweisungen."
         }
+    },
+    "generalFractures": {
+        "title": "Frakturen und Versetzungen",
+        "symptoms": {
+            "title": "Symptome:",
+            "info_1": "Schmerz, Schwellung",
+            "info_2": "Rötung, blass oder blau",
+            "info_3": "Verformung - Änderung der Gliedmaßenform",
+            "info_4": "Beweglichkeit der Gliedmaßen eingeschränkt, unnatürliche Beweglichkeit",
+            "info_5": "Taubheit, sensorische Störung hinter der Frakturstelle",
+            "info_6": "Wunde, Blutung, sichtbare Knochenfragmente bei offener Fraktur"
+        },
+        "forbidden": {
+            "title": "Das solltest du nicht:",
+            "info_1": "Bewegen und drehen Sie die verletzte Person nicht, bis das Glied bewegungsunfähig ist",
+            "info_2": "Bewegen Sie das gebrochene Glied nicht und versuchen Sie nicht, es anzupassen",
+            "info_3": "Geben Sie der kranken Person kein Essen oder Trinken",
+            "info_4": "Lass die verletzte Person nicht alleine"
+        }
+    },
+    "upperFractures": {
+        "title": "Frakturen, Verstauchungen und Verstauchungen der oberen Extremität",
+        "whatToDo": {
+            "title": "Symptome",
+            "info_1": "In einer Situation, in der das Schlüsselbein oder der Arm verletzt ist, legen Sie die verletzte Hand auf einen Hocker. Legen Sie die verletzte Hand auf seinen Bauch und biegen Sie sie sanft in einem Winkel von etwa 90 Grad in den Ellbogen. Der Patient hält den Betroffenen Glied mit der anderen Hand. ",
+            "info_2": "Verwenden Sie einen dreieckigen Schal, um eine Schlinge herzustellen. Legen Sie den Schal so unter den Arm des Verletzten, dass sich die Spitze des Dreiecks am Ellbogen befindet. Binden Sie die beiden anderen Ecken am Hals des Patienten fest. Wenn Sie keinen dreieckigen haben Schal, Sie können zB einen Schal oder einen Verband verwenden. Binden Sie ihn um Ihren Hals und hängen Sie die kranke Hand am Handgelenk auf. ",
+            "info_3": "In einer Situation, in der der Unterarm oder das Handgelenk verletzt wurde, befestigen Sie zuerst das Glied vom Ellbogen bis zur Hand mit etwas Steifem (eine Latte, Zeitung mehrmals gefaltet). Befestigen Sie den Stabilisator mit einem Verband und hängen Sie dann den Glied auf einer Schlinge. ",
+            "info_4": "Bei einer Ellbogenverletzung das Glied in der Position stabilisieren, in der es sich befindet - nicht biegen und strecken.",
+            "info_5": "Wenden Sie sich an den medizinischen Disponenten: 999, 112.",
+            "info_6": "'Wenn ein Finger gebrochen ist, befestigen Sie ihn beispielsweise mit einem Pflaster an einem benachbarten Finger, legen Sie dann die ganze Hand auf etwas Steifes (ein Buch, ein Brett) und wickeln Sie ihn mit einem Verband ein in das Krankenhaus oder die Klinik, wo ihm ein orthopädischer Chirurg zur Verfügung gestellt wird. "
+        }
     }
 }
