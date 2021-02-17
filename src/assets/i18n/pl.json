@@ -116,5 +116,45 @@
             "info_5": "Skontaktuj się z dyspozytorem medycznym: 999, 112.",
             "info_6": "'Gdy złamaniu ulega palec dłoni przymocuj go np.plastrem do palca sąsiedniego, a następnie  połóż na czymś sztywnym całą dłoń(książka, deseczka) i owiń całość bandażem.Poszkodowany powinien zgłosić się do szpitala, lub poradni gdzie pomocy udzieli mu chirurg ortopeda."
         }
+    },
+    "lowerFractures": {
+        "title": "Złamania, zwichnięcia i skręcenia kończyny dolnej",
+        "whatToDo": {
+            "title": "Objawy",
+            "info_1": "W przypadku złamania w obrębie uda  wezwij Zespół Ratownictwa Medycznego: 999, 112 i do czasu przyjazdu ratowników nie poruszaj złamanej kończyny i nie unieruchamiaj jej.",
+            "info_2": "Jeśli przyjazd pogotowia jest niemożliwy - unieruchom uszkodzoną kończynę, przymocowując ją do zdrowej nogi przy pomocy bandaża lub np.taśmy klejącej.Możesz też ustabilizować nogę szyną, używając np.kija lub deski.Prawidłowo dobrana szyna powinna sięgać od stopy do pachy chorego.W przypadku złamania kości podudzia wystarczy krótsza szyna obejmująca staw kolanowy i staw skokowy.",
+            "info_3": "W przypadku urazu kolana wezwij pogotowie i poczekaj na przyjazd zespołu.",
+            "info_4": "Jeżeli przyjazd służb medycznych nie jest możliwy i decydujesz się unieruchomić staw kolanowy to pamiętaj, żeby jak najbardziej ograniczyć ruchy kolana.",
+            "info_5": "Gdy staw kolanowy jest zgięty wykorzystaj do unieruchomienia kończyny dwie poduszki - jedną wsuń między uda, drugą między podudzia, a następnie przymocuj nogi do siebie nawzajem.",
+            "info_6": "W przypadku urazu kolana gdy uszkodzona noga jest wyprostowana, unieruchom kończyną za pomocą szyny na całej długości.Jeśli jest taka możliwość, przymocuj dwie deski z dwóch stron chorej nogi - krótszą od wewnątrz, a dłuższą na zewnątrz kończyny."
+        }
+    },
+    "backboneFractures": {
+        "title": "Urazy kręgosłupa",
+        "symptoms": {
+            "title": "Objawy",
+            "info_1": "ból szyi, pleców",
+            "info_2": "zaburzenia czucia poniżej miejsca uszkodzenia kręgosłupa, porażenie kończyn",
+            "info_3": "mimowolne oddanie moczu i stolca",
+            "info_4": "zatrzymanie oddechu",
+            "info_5": "wstrząs"
+        },
+        "notToDo": {
+            "title": "Nie należy:",
+            "info_1": "nie przenoś i nie poruszaj poszkodowanego jeśli nie ma takiej konieczności",
+            "info_2": "nie pozostawiaj poszkodowanego samego",
+            "info_3": "nie podawaj choremu nic do picia i jedzenia."
+        },
+        "whatToDo": {
+            "title": "Co robić?",
+            "info_1": "sprawdź bezpieczeństwo i zastosuj środki ochronne(rękawiczki)",
+            "info_2": "jeżeli przeniesienie chorego jest konieczne rób to bardzo ostrożnie i delikatnie.Najlepiej ciągnij poszkodowanego za ubranie leżącego na plecach lub brzuchu.Nie wykonuj gwałtownych ruchów, nie szarp.Poproś kogoś o pomoc.",
+            "info_3": "jeśli musisz obrócić poszkodowanego na bok np.z powodu wymiotów, rób to ostrożnie.Stabilizuj szyję i głowę tak, żeby kręgosłup znajdował się w jednej osi.",
+            "info_4": "jak najszybciej wezwij pomoc medyczną: 999, 112.",
+            "info_5": "pozostań przy poszkodowanym.Regularnie oceniaj jego parametry życiowe.Jeśli nie oddycha - rozpocznij resuscytację."
+        }
+    },
+    "safePosition":{
+        "title": "Pierwsza pomoc - drgawki"
     }
 }

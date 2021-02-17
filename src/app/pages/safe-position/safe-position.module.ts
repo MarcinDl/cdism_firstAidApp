@@ -8,12 +8,14 @@ import { SafePositionPageRoutingModule } from './safe-position-routing.module';
 
 import { SafePositionPage } from './safe-position.page';
 import { SharedModule } from './../../shared/shared.module'
+import { TranslateModule } from '@ngx-translate/core';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
     SharedModule,
+    TranslateModule,
     SafePositionPageRoutingModule
   ],
   declarations: [SafePositionPage]

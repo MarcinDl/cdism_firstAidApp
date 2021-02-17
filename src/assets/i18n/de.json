@@ -116,5 +116,45 @@
             "info_5": "Wenden Sie sich an den medizinischen Disponenten: 999, 112.",
             "info_6": "'Wenn ein Finger gebrochen ist, befestigen Sie ihn beispielsweise mit einem Pflaster an einem benachbarten Finger, legen Sie dann die ganze Hand auf etwas Steifes (ein Buch, ein Brett) und wickeln Sie ihn mit einem Verband ein in das Krankenhaus oder die Klinik, wo ihm ein orthopädischer Chirurg zur Verfügung gestellt wird. "
         }
+    },
+    "lowerFractures": {
+        "title": "Frakturen, Luxationen und Verstauchungen der unteren Extremität",
+        "whatToDo": {
+            "title": "Symptome",
+            "info_1": "Rufen Sie im Falle einer Oberschenkelfraktur das Medical Emergency Team an: 999, 112 und bewegen Sie das gebrochene Glied nicht und machen Sie es nicht bewegungsunfähig, bis die Sanitäter eintreffen.",
+            "info_2": "Wenn das Eintreffen des Krankenwagens nicht möglich ist - machen Sie das beschädigte Glied bewegungsunfähig, indem Sie es mit einem Verband oder beispielsweise Klebeband am gesunden Bein befestigen. Sie können das Bein beispielsweise auch mit einer Schiene stabilisieren Eine richtig ausgewählte Schiene sollte sich vom Fuß bis zur Achselhöhle des Patienten erstrecken. Bei einem Bruch der Schienbeinknochen reicht eine kürzere Schiene aus, die Knie und Knöchel bedeckt. ",
+            "info_3": "Rufen Sie bei einer Knieverletzung einen Krankenwagen und warten Sie, bis das Team eintrifft.",
+            "info_4": "Wenn die Ankunft eines medizinischen Dienstes nicht möglich ist und Sie sich entscheiden, das Kniegelenk zu immobilisieren, denken Sie daran, die Kniebewegungen so weit wie möglich zu begrenzen.",
+            "info_5": "Wenn das Kniegelenk gebeugt ist, verwenden Sie zwei Kissen, um die Extremität zu fixieren - schieben Sie eines zwischen die Oberschenkel, das andere zwischen die Unterschenkel und befestigen Sie die Beine aneinander.",
+            "info_6": "Im Falle einer Knieverletzung und wenn das beschädigte Bein gestreckt ist, befestigen Sie das Glied mit einer Schiene über die gesamte Länge. Wenn möglich, befestigen Sie zwei Bretter auf beiden Seiten des betroffenen Beins - das kürzere innen und je länger außen. "
+        }
+    },
+    "backboneFractures": {
+        "title": "Rückenverletzungen",
+        "Symptome": {
+            "title": "Symptome",
+            "info_1": "Nackenschmerzen, Rückenschmerzen",
+            "info_2": "sensorische Störung unterhalb der Wirbelsäulenverletzung, Extremitätenlähmung",
+            "info_3": "unfreiwilliges Wasserlassen und Stuhlgang",
+            "info_4": "Atem anhalten",
+            "info_5": "Schock"
+        },
+        "nicht zu tun": {
+            "title": "Du solltest nicht:",
+            "info_1": "Bewegen oder bewegen Sie die verletzte Person nicht, wenn dies nicht erforderlich ist",
+            "info_2": "Lass das Opfer nicht alleine",
+            "info_3": "Gib der kranken Person nichts zu trinken oder zu essen."
+        },
+        "was ist zu tun": {
+            "title": "Was tun?",
+            "info_1": "Sicherheit prüfen und Schutzmaßnahmen (Handschuhe) anwenden",
+            "info_2": "Wenn es notwendig ist, den Patienten zu transferieren, gehen Sie sehr vorsichtig und vorsichtig vor. Ziehen Sie die verletzte Person am besten an den Kleidern auf dem Rücken oder Bauch. Machen Sie keine plötzlichen Bewegungen, ruckeln Sie nicht. Fragen Sie jemand um Hilfe. ",
+            "info_3": "Wenn Sie beispielsweise die Verletzten aufgrund von Erbrechen zur Seite drehen müssen, gehen Sie vorsichtig vor. Stabilisieren Sie Hals und Kopf so, dass sich die Wirbelsäule in derselben Achse befindet.",
+            "info_4": "Rufen Sie so schnell wie möglich medizinische Hilfe an: 999, 112.",
+            "info_5": "Bleiben Sie beim Opfer. Überprüfen Sie regelmäßig seine Vitalfunktionen. Wenn er nicht atmet, starten Sie die CPR."
+        }
+    },
+    "safePosition": {
+        "Titel": "Erste Hilfe - Anfälle"
     }
 }

@@ -1,19 +1,29 @@
 <ion-content>
 
   <div class="margin-23vh" style="width: 94vw; margin-left: 3vw;">
-    <h1 class="ion-text-center  border-bottom-dark-blue">{{backboneFracturesTitle}}</h1>
-    <h3>{{backboneFracturesSymptomsTitle}}</h3>
+    <h1 class="ion-text-center  border-bottom-dark-blue">{{ 'backboneFractures.title' | translate }}</h1>
+    <h3>{{ 'backboneFractures.symptoms.title' | translate }}</h3>
     <ul>
-      <li *ngFor="let content of backboneFracturesSymptoms"> {{content}}</li>
+      <li>{{ 'backboneFractures.symptoms.info_1' | translate }}</li>
+      <li>{{ 'backboneFractures.symptoms.info_2' | translate }}</li>
+      <li>{{ 'backboneFractures.symptoms.info_3' | translate }}</li>
+      <li>{{ 'backboneFractures.symptoms.info_4' | translate }}</li>
+      <li>{{ 'backboneFractures.symptoms.info_5' | translate }}</li>
     </ul>
-
-    <h3>{{backboneFracturesDoNotTitle}}</h3>
+    <h3>{{ 'backboneFractures.notToDo.title' | translate }}</h3>
     <ul>
-      <li *ngFor="let content of backboneFracturesDoNot">{{content}}</li>
+      <li>{{ 'backboneFractures.notToDo.info_1' | translate }}</li>
+      <li>{{ 'backboneFractures.notToDo.info_2' | translate }}</li>
+      <li>{{ 'backboneFractures.notToDo.info_3' | translate }}</li>
+      <li>{{ 'backboneFractures.notToDo.info_4' | translate }}</li>
     </ul>
-    <h3>{{backboneFracturesWhatToDoTitle}}</h3>
+    <h3>{{ 'backboneFractures.whatToDo.title' | translate }}</h3>
     <ul>
-      <li *ngFor="let content of backboneFracturesWhatToDo">{{content}}</li>
+      <li>{{ 'backboneFractures.whatToDo.info_1' | translate }}</li>
+      <li>{{ 'backboneFractures.whatToDo.info_2' | translate }}</li>
+      <li>{{ 'backboneFractures.whatToDo.info_3' | translate }}</li>
+      <li>{{ 'backboneFractures.whatToDo.info_4' | translate }}</li>
+      <li>{{ 'backboneFractures.whatToDo.info_5' | translate }}</li>
     </ul>
   </div>
 </ion-content>

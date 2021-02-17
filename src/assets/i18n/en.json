@@ -116,5 +116,45 @@
             "info_5": "Contact the medical dispatcher: 999, 112.",
             "info_6": "'When a finger is broken, attach it to an adjacent finger with a plaster, for example, and then place the whole hand on something stiff (a book, a board) and wrap it with a bandage. The victim should report to the hospital or clinic where help will be provided him an orthopedic surgeon. "
         }
+    },
+    "lowerFractures": {
+        "title": "Fractures, dislocations and sprains of the lower limb",
+        "whatToDo": {
+            "title": "Symptoms",
+            "info_1": "In case of a thigh fracture, call the Medical Emergency Team: 999, 112 and do not move the broken limb or immobilize it until the paramedics arrive.",
+            "info_2": "If the arrival of the ambulance is impossible - immobilize the damaged limb by attaching it to the healthy leg with a bandage or, for example, adhesive tape. You can also stabilize the leg with a splint, using, for example, a stick or a board. A properly selected splint should extend from foot to the armpit of the patient. In the event of a fracture of the bones of the shin, a shorter splint covering the knee and ankle is sufficient. ",
+            "info_3": "In case of knee injury, call an ambulance and wait for the team to arrive.",
+            "info_4": "If the arrival of medical services is not possible and you decide to immobilize the knee joint, remember to limit the knee movements as much as possible.",
+            "info_5": "When the knee joint is bent, use two pillows to immobilize the limb - slide one between the thighs, the other between the lower legs, and then fasten the legs to each other.",
+            "info_6": "In the event of a knee injury and the damaged leg is straightened, fix the limb with a splint along the entire length. If possible, attach two boards on both sides of the affected leg - the shorter on the inside and the longer on the outside."
+        }
+    },
+    "backboneFractures": {
+        "title": "Back injuries",
+        "symptoms": {
+            "title": "Symptoms",
+            "info_1": "neck pain, back pain",
+            "info_2": "sensory disturbance below the spine injury, limb paralysis",
+            "info_3": "involuntary urination and stools",
+            "info_4": "breath hold",
+            "info_5": "shock"
+        },
+        "notToDo": {
+            "title": "You should not:",
+            "info_1": "do not move or move the injured person if there is no such necessity",
+            "info_2": "do not leave the victim alone",
+            "info_3": "do not give the sick person anything to drink or eat."
+        },
+        "whatToDo": {
+            "title": "What to do?",
+            "info_1": "check safety and use protective measures (gloves)",
+            "info_2": "if it is necessary to transfer the patient, do it very carefully and gently. It is best to pull the injured person by the clothes lying on his back or stomach. Do not make sudden movements, do not jerk. Ask someone for help.",
+            "info_3": "if you have to turn the injured sideways due to vomiting, for example, do it carefully. Stabilize the neck and head so that the spine is in the same axis.",
+            "info_4": "call for medical help as soon as possible: 999, 112.",
+            "info_5": "Stay with the victim. Regularly assess his vital signs. If he is not breathing, start CPR."
+        }
+    },
+    "safePosition": {
+        "title": "First Aid - Seizures"
     }
 }
