@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { firstAidContentTitle, firstAidContentList_1,firstAidContentList_2 } from './firstAidContent'
 import { Router } from '@angular/router'
 @Component({
-  selector: 'app-first-aid',
-  templateUrl: './first-aid.page.html',
-  styleUrls: ['./first-aid.page.scss'],
+  selector: 'app-seizures',
+  templateUrl: './seizures.page.html',
+  styleUrls: ['./seizures.page.scss'],
 })
-export class FirstAidPage implements OnInit {
+export class SeizuresPage implements OnInit {
   public title = firstAidContentTitle;
   public lists_1 = firstAidContentList_1;
   public lists_2 = firstAidContentList_2;

@@ -12,8 +12,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'first-aid',
-    loadChildren: () => import('./pages/first-aid/first-aid.module').then(m => m.FirstAidPageModule)
+    path: 'seizures',
+    loadChildren: () => import('./pages/seizures/seizures.module').then(m => m.SeizuresPageModule)
   },
   {
     path: 'fractures',

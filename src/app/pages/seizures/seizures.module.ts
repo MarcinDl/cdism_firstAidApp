@@ -4,18 +4,18 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { FirstAidPageRoutingModule } from './first-aid-routing.module';
+import { SeizuresPageRoutingModule } from './seizures-routing.module';
 
-import { FirstAidPage } from './first-aid.page';
-import { SharedModule } from './../../shared/shared.module'
+import { SeizuresPage } from './seizures.page';
+import { SharedModule } from '../../shared/shared.module'
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    FirstAidPageRoutingModule,
+    SeizuresPageRoutingModule,
     SharedModule
   ],
-  declarations: [FirstAidPage]
+  declarations: [SeizuresPage]
 })
-export class FirstAidPageModule {}
+export class SeizuresPageModule {}
