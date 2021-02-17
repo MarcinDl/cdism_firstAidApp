@@ -155,6 +155,66 @@
         }
     },
     "safePosition": {
-        "title": "First Aid - Seizures"
+        "title": "Safe Position"
+    },
+    "seizures": {
+        "title": "First Aid - Seizures",
+        "principalRules": {
+            "title": "Basic rules:",
+            "info_1": "ensure the patient's safety",
+            "info_2": "protect it against injuries (e.g. fall, cut, bruise)",
+            "info_3": "remove from the immediate vicinity all objects that may be hazardous to the health and life of the victim (e.g. sharp edges)",
+            "info_4": "protect the patient's head from injuries",
+            "info_5": "unbutton the shirt collar so that he can breathe freely",
+            "info_6": "make sure that he breathes freely and that his respiratory tract is clear",
+            "info_7": "seizures last up to 5 minutes, so stay calm",
+            "info_8": "when the epilepsy attack is over, place the patient in the recovery position, this will prevent him from choking",
+            "info_9": "if the epilepsy attack lasts for a long time, call an ambulance (Number 999/112)"
+        },
+        "rememberAbout": {
+            "title": "Remember about:",
+            "info_1": "do not put anything hard between the patient's teeth and do not forcefully open the clenched jaws",
+            "info_2": "do not try to stop the convulsions by force (do not hold the torso or limbs)",
+            "info_3": "do not start CPR, it is not needed. Seizures can be characterized by the victim turning blue and apnea",
+            "info_4": "do not put any objects under the patient's head (pillows or blankets). Cover your head with your hands",
+            "info_5": "do not restrict the patient's movements",
+            "info_6": "do not give any fluids or food during the attack, as this may lead to the victim choking"
+        }
+    },
+    "unconscious": {
+        "title": "Procedures for dealing with an unconscious person",
+        "rule_1": {
+            "number": "Rule 1",
+            "title": "Own security",
+            "info_1": "Before we make sure that the victim is unconscious and needs our help, let's take care of our own safety!"
+        },
+        "rule_2": {
+            "number": "Rule 2",
+            "title": "Contact with the victim",
+            "info_1": "Secondly, after approaching the victim, let's check the reaction to the voice - Hello! can you hear me? - if you don't react, gently shake your shoulders."
+        },
+        "rule_3": {
+            "number": "Rule 3",
+            "title": "ABC study",
+            "info_1": "If so far we have not received any feedback from the victim, in the next stage let's examine the patient according to a simple ABC scheme to assess the health condition more precisely.",
+            "info_2": "A (airway) airway patency - let's slightly tilt the head back (forehead-mandibular grip) so as to open the airways.",
+            "info_3": "B (breathing) - let's examine the breath for 10 seconds, basically: I can see, hear, feel (within 10 seconds we should feel at least two full breaths).",
+            "info_4": "C (circulation) if we have experience in this let's examine the presence of heart rate in the carotid and radial arteries."
+        },
+        "rule_4": {
+            "number": "Rule 4",
+            "title": "Safe position",
+            "info_1": "The victim has breathing and signs of circulation. Place the victim in a safe position (lateral steady) to prevent the tongue from collapsing on the back wall of the pharynx which could lead to cardiac arrest (SCA) see: cardiac arrest management. "
+        },
+        "rule_5": {
+            "number": "Rule 5",
+            "title": "Call for help",
+            "info_1": "Let's call for help 999/112. Let's control our breathing until the band arrives"
+        },
+        "rule_6": {
+            "number": "Rule 6",
+            "title": "Vital signs control",
+            "info_1": "Before we make sure that the victim is unconscious and needs our help, let's take care of our own safety!"
+        }
     }
 }

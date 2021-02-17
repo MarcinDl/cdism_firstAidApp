@@ -131,7 +131,7 @@
     },
     "backboneFractures": {
         "title": "Rückenverletzungen",
-        "Symptome": {
+        "symptoms": {
             "title": "Symptome",
             "info_1": "Nackenschmerzen, Rückenschmerzen",
             "info_2": "sensorische Störung unterhalb der Wirbelsäulenverletzung, Extremitätenlähmung",
@@ -139,13 +139,13 @@
             "info_4": "Atem anhalten",
             "info_5": "Schock"
         },
-        "nicht zu tun": {
+        "notToDo": {
             "title": "Du solltest nicht:",
             "info_1": "Bewegen oder bewegen Sie die verletzte Person nicht, wenn dies nicht erforderlich ist",
             "info_2": "Lass das Opfer nicht alleine",
             "info_3": "Gib der kranken Person nichts zu trinken oder zu essen."
         },
-        "was ist zu tun": {
+        "whatToDo": {
             "title": "Was tun?",
             "info_1": "Sicherheit prüfen und Schutzmaßnahmen (Handschuhe) anwenden",
             "info_2": "Wenn es notwendig ist, den Patienten zu transferieren, gehen Sie sehr vorsichtig und vorsichtig vor. Ziehen Sie die verletzte Person am besten an den Kleidern auf dem Rücken oder Bauch. Machen Sie keine plötzlichen Bewegungen, ruckeln Sie nicht. Fragen Sie jemand um Hilfe. ",
@@ -155,6 +155,66 @@
         }
     },
     "safePosition": {
-        "Titel": "Erste Hilfe - Anfälle"
+        "title": "Sichere Position"
+    },
+    "seizures": {
+        "title": "Erste Hilfe - Anfälle",
+        "principalRules": {
+            "title": "Grundregeln:",
+            "info_1": "die Sicherheit des Patienten gewährleisten",
+            "info_2": "Schützen Sie es vor Verletzungen (z. B. Sturz, Schnitt, Bluterguss)",
+            "info_3": "Entfernen Sie alle Gegenstände aus der unmittelbaren Umgebung, die für die Gesundheit und das Leben des Opfers gefährlich sein können (z. B. scharfe Kanten)",
+            "info_4": "Kopf des Patienten vor Verletzungen schützen",
+            "info_5": "Knöpfen Sie den Hemdkragen auf, damit er frei atmen kann",
+            "info_6": "Stellen Sie sicher, dass er frei atmet und dass seine Atemwege frei sind",
+            "info_7": "Anfälle dauern bis zu 5 Minuten, bleiben Sie also ruhig",
+            "info_8": "Wenn der Epilepsieanfall vorbei ist, bringen Sie den Patienten in die Erholungsposition, damit er nicht erstickt",
+            "info_9": "Wenn der Epilepsieanfall lange anhält, rufen Sie einen Krankenwagen (Nummer 999/112)."
+        },
+        "rememberAbout": {
+            "title": "Erinnere dich an:",
+            "info_1": "Legen Sie nichts Hartes zwischen die Zähne des Patienten und öffnen Sie die zusammengebissenen Kiefer nicht mit Gewalt",
+            "info_2": "Versuchen Sie nicht, die Krämpfe mit Gewalt zu stoppen (halten Sie den Oberkörper oder die Gliedmaßen nicht fest)",
+            "info_3": "CPR nicht starten, es wird nicht benötigt. Anfälle können dadurch charakterisiert werden, dass das Opfer blau wird und Apnoe",
+            "info_4": "Legen Sie keine Gegenstände unter den Kopf des Patienten (Kissen oder Decken). Bedecken Sie Ihren Kopf mit Ihren Händen",
+            "info_5": "Bewegungen des Patienten nicht einschränken",
+            "info_6": "Geben Sie während des Angriffs keine Flüssigkeiten oder Lebensmittel, da dies zum Ersticken des Opfers führen kann."
+        }
+    },
+    "unconscious": {
+        "title": "Verfahren für den Umgang mit einer bewusstlosen Person",
+        "rule_1": {
+            "number": "Regel 1",
+            "title": "Eigene Sicherheit",
+            "info_1": "Bevor wir sicherstellen, dass das Opfer bewusstlos ist und unsere Hilfe benötigt, kümmern wir uns um unsere eigene Sicherheit!"
+        },
+        "rule_2": {
+            "number": "Regel 2",
+            "title": "Kontakt mit dem Opfer",
+            "info_1": "Zweitens, nachdem wir uns dem Opfer genähert haben, überprüfen wir die Reaktion auf die Stimme - Hallo! Kannst du mich hören? - Wenn es keine Reaktion gibt, schüttle sanft deine Schultern."
+        },
+        "rule_3": {
+            "number": "Regel 3",
+            "title": "ABC-Studie",
+            "info_1": "Wenn wir bisher keine Rückmeldung vom Opfer erhalten haben, untersuchen wir den Patienten in der nächsten Phase nach einem einfachen ABC-Schema, um den Gesundheitszustand genauer zu beurteilen.",
+            "info_2": "Durchgängigkeit der Atemwege (Atemwege) - Kippen wir den Kopf leicht nach hinten (Stirn-Unterkiefer-Griff), um die Atemwege zu öffnen.",
+            "info_3": "B (Atmung) - Lassen Sie uns den Atem 10 Sekunden lang untersuchen, im Grunde: Ich kann sehen, hören, fühlen (innerhalb von 10 Sekunden sollten wir mindestens zwei volle Atemzüge fühlen).",
+            "info_4": "C (Kreislauf) Wenn wir Erfahrung damit haben, untersuchen wir das Vorhandensein von Herzfrequenz in den Halsschlag- und Radialarterien."
+        },
+        "rule_4": {
+            "number": "Regel 4",
+            "title": "Sichere Position",
+            "info_1": "Das Opfer hat Atmung und Anzeichen von Durchblutung. Bringen Sie das Opfer in eine sichere Position (seitlich stabil), um zu verhindern, dass die Zunge an der Rückwand des Pharynx kollabiert, was zu einem Herzstillstand (SCA) führen kann. Siehe: Herz Verhaftungsmanagement. "
+        },
+        "rule_5": {
+            "number": "Regel 5",
+            "title": "Hilferuf",
+            "info_1": "Rufen wir um Hilfe 999/112. Kontrollieren wir unsere Atmung, bis die Band eintrifft."
+        },
+        "rule_6": {
+            "number": "Regel 6",
+            "title": "Kontrolle der Vitalfunktionen",
+            "info_1": "Bevor wir sicherstellen, dass das Opfer bewusstlos ist und unsere Hilfe benötigt, kümmern wir uns um unsere eigene Sicherheit!"
+        }
     }
 }

@@ -154,7 +154,67 @@
             "info_5": "pozostań przy poszkodowanym.Regularnie oceniaj jego parametry życiowe.Jeśli nie oddycha - rozpocznij resuscytację."
         }
     },
-    "safePosition":{
-        "title": "Pierwsza pomoc - drgawki"
+    "safePosition": {
+        "title": "Pozycja bezpieczna"
+    },
+    "seizures": {
+        "title": "Pierwsza pomoc - drgawki",
+        "principalRules": {
+            "title": "Podstawowe zasady:",
+            "info_1": "należy zapewnić choremu bezpieczeństwo",
+            "info_2": "zabezpiecz go przed wystąpieniem urazów(np.upadek, skaleczenie, potłuczenie)",
+            "info_3": "usuń z najbliższego otoczenia wszelkie przedmioty zagrażające zdrowiu oraz życiu poszkodowanego(np.ostre krawędzie)",
+            "info_4": "ochroń głowę chorego przed urazami",
+            "info_5": "rozepnij choremu kołnierzyk koszuli, aby mógł swobodnie oddychać",
+            "info_6": "pilnuj, aby swobodnie oddychał i by miał drożne drogi oddechowe",
+            "info_7": "napady padaczkowe trwają do 5 minut, więc zachowaj spokój",
+            "info_8": "kiedy atak padaczki minie, ułóż chorego w pozycji bocznej ustalonej, uchronisz go w ten sposób przed zadławieniem",
+            "info_9": "jeżeli atak padaczki się przedłuża, wezwij ambulans(Numer 999 / 112)"
+        },
+        "rememberAbout": {
+            "title": "Pamiętaj o:",
+            "info_1": "nie wkładaj nic twardego między zęby chorego i nie otwieraj na siłę zaciśniętych szczęk",
+            "info_2": "nie próbuj powstrzymać na siłę drgawek(nie przytrzymuj tułowia, ani kończyn)",
+            "info_3": "nie rozpoczynaj resuscytacji, nie jest potrzebna.Napady drgawkowe mogą charakteryzować się sinieniem poszkodowanego oraz bezdechem",
+            "info_4": "nie wkładaj pod głowę chorego jakichkolwiek przedmiotów(poduszek czy koca).Osłoń głowę swoimi dłońmi",
+            "info_5": "nie ograniczaj ruchów chorego",
+            "info_6": "nie podawaj podczas ataku jakichkolwiek płynów oraz pokarmów, bo może to doprowadzić do zadławienia się poszkodowanego"
+        }
+    },
+    "unconscious": {
+        "title": "Procedury postępowania w przypadku nieprzytomnego",
+        "rule_1": {
+            "number": "Zasada 1",
+            "title": "Bezpieczeństwo własne",
+            "info_1": "Zanim upewnimy się, że poszkodowany jest nieprzytomny i potrzebuje naszej pomocy zadbajmy o własne bezpieczeństwo!"
+        },
+        "rule_2": {
+            "number": "Zasada 2",
+            "title": "Kontakt z poszkodowanym",
+            "info_1": " W drugiej kolejności po podejściu do poszkodowanego sprawdźmy reakcję na głos – Halo! czy Pan/Pani mnie słyszy? – w przypadku braku reakcji delikatnie potrząśmy ramionami."
+        },
+        "rule_3": {
+            "number": "Zasada 3",
+            "title": "Badanie ABC",
+            "info_1": "Jeżeli do tej pory nie uzyskaliśmy żadnej informacji zwrotnej od poszkodowanego w kolejnym etapie zbadajmy chorego według prostego schematu ABC tak aby dokładniej ocenić stan zdrowia.",
+            "info_2": "A (airway) drożność dróg oddechowych – odegnijmy delikatnie głowę do tyłu (chwyt czoło-żuchwa) tak aby udrożnić drogi oddechowe.",
+            "info_3": "B (breathing) – zbadajmy oddech przez 10 sekund na zasadzie: widzę, słyszę, czuję (w ciągu 10 sekund powinniśmy wyczuć przynajmniej dwa pełne oddechy).",
+            "info_4": "C (circulation) jeśli mamy w tym doświadczenie zbadajmy obecność tętna (krążenia) na tętnicy szyjnej i tętnicy promieniowej."
+        },
+        "rule_4": {
+            "number": "Zasada 4",
+            "title": "Pozycja bezpieczna",
+            "info_1": "Poszkodowany ma zachowany oddech i oznaki krążenia. Ułóżmy poszkodowanego w pozycji bezpiecznej (boczna ustalona), tak aby zapobiec zapadaniu się języka na tylną ścianę gardło co mogło by doprowadzić do zatrzymania krążenia (NZK) patrz: postępowanie w zatrzymaniu krążenia."
+        },
+        "rule_5": {
+            "number": "Zasada 5",
+            "title": "Wezwanie pomocy",
+            "info_1": "Wezwijmy pomoc 999/112. Kontrolujmy oddech do czasu przyjazdu zespołu"
+        },
+        "rule_6": {
+            "number": "Zasada 6",
+            "title": "Kontrola parametrów życiowych",
+            "info_1": "Zanim upewnimy się, że poszkodowany jest nieprzytomny i potrzebuje naszej pomocy zadbajmy o własne bezpieczeństwo!"
+        }
     }
 }

@@ -8,11 +8,13 @@ import { SeizuresPageRoutingModule } from './seizures-routing.module';
 
 import { SeizuresPage } from './seizures.page';
 import { SharedModule } from '../../shared/shared.module'
+import { TranslateModule } from '@ngx-translate/core';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    TranslateModule,
     SeizuresPageRoutingModule,
     SharedModule
   ],

@@ -8,6 +8,7 @@ import { UnconsciousPageRoutingModule } from './unconscious-routing.module';
 
 import { UnconsciousPage } from './unconscious.page';
 import { SharedModule } from './../../shared/shared.module'
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { SharedModule } from './../../shared/shared.module'
     FormsModule,
     IonicModule,
     UnconsciousPageRoutingModule,
-    SharedModule
+    SharedModule,
+    TranslateModule
   ],
   declarations: [UnconsciousPage]
 })

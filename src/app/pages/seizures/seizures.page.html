@@ -1,42 +1,45 @@
 <ion-content>
   <app-header></app-header>
-  <!-- <ion-header class="ion-no-border">
-    <ion-toolbar class="ion-no-border">
-      <ion-back-button text="Powrót" slot="start"></ion-back-button>
-      <ion-title>Pierwsza pomoc</ion-title>
-
-      <ion-icon slot="end" name="eye" style="margin-right: 5vw"></ion-icon>
-      <ion-text slot="end" style="margin-right: 2vw">aA</ion-text>
-    </ion-toolbar>
-  </ion-header> -->
-
   <ion-grid style="margin-top: 23vh;height: 77vh;">
     <ion-row>
       <ion-col>
-        <h1 class="ion-text-center  border-bottom-dark-blue">Pierwsza pomoc - drgawki</h1>
+        <h1 class="ion-text-center  border-bottom-dark-blue">{{ 'seizures.title' | translate }}</h1>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col class="border-bottom-light-grey">
-        <ion-text style="color: red; font-size: 1.2rem;">Podstawowe zasady:</ion-text>
+        <ion-text style="color: red; font-size: 1.2rem;">{{ 'seizures.principalRules.title' | translate }}</ion-text>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col>
         <ul>
-          <li *ngFor="let list of lists_1">{{ list }}</li>
+          <li>{{ 'seizures.principalRules.info_1' | translate }}</li>
+          <li>{{ 'seizures.principalRules.info_2' | translate }}</li>
+          <li>{{ 'seizures.principalRules.info_3' | translate }}</li>
+          <li>{{ 'seizures.principalRules.info_4' | translate }}</li>
+          <li>{{ 'seizures.principalRules.info_5' | translate }}</li>
+          <li>{{ 'seizures.principalRules.info_6' | translate }}</li>
+          <li>{{ 'seizures.principalRules.info_7' | translate }}</li>
+          <li>{{ 'seizures.principalRules.info_8' | translate }}</li>
+          <li>{{ 'seizures.principalRules.info_9' | translate }}</li>
         </ul>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col class="border-bottom-light-grey">
-        <ion-text style="color: red; font-size: 1.2rem;">Pamiętaj o:</ion-text>
+        <ion-text style="color: red; font-size: 1.2rem;">{{ 'safePosition.rememberAbout.title' | translate }}</ion-text>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col>
         <ul>
-          <li *ngFor="let list of lists_2">{{ list }}</li>
+          <li>{{ 'seizures.rememberAbout.info_1' | translate }}</li>
+          <li>{{ 'seizures.rememberAbout.info_2' | translate }}</li>
+          <li>{{ 'seizures.rememberAbout.info_3' | translate }}</li>
+          <li>{{ 'seizures.rememberAbout.info_4' | translate }}</li>
+          <li>{{ 'seizures.rememberAbout.info_5' | translate }}</li>
+          <li>{{ 'seizures.rememberAbout.info_6' | translate }}</li>
         </ul>
       </ion-col>
     </ion-row>
