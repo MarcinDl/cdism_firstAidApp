@@ -73,6 +73,12 @@ ul{
     color: yellow;
     --color: yellow;
 
+    ion-checkbox {
+        --background: rgba(	255, 255, 0,0.5);
+        --ion-color-primary: yellow;
+        border: 0px solid yellow;
+        border-radius: 50%;
+    }     
     .border-bottom-dark-blue{
         @include border-bottom(5px, solid, $yellow)
     }
