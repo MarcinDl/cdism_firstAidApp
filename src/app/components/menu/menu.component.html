@@ -12,28 +12,10 @@
           <ion-list-header class="ion-text-center">
             <ion-label class="border-bottom-dark-blue" style="height: 40px">{{ "GENERAL.choose_language" | translate }}</ion-label>
           </ion-list-header>
-      
           <ion-item *ngFor="let lng of languages" (click)="select(lng.value)">
-            
             <ion-label>{{ lng.text }}</ion-label>
-            <ion-radio slot="end"></ion-radio>
-          
+            <ion-radio slot="end"></ion-radio>          
           </ion-item>
-
-          <!-- <ion-item>
-            <ion-label>Polski</ion-label>
-            <ion-radio checked slot="end" value="polish"></ion-radio>
-          </ion-item>
-      
-          <ion-item>
-            <ion-label>English</ion-label>
-            <ion-radio slot="end" value="english"></ion-radio>
-          </ion-item>
-      
-          <ion-item>
-            <ion-label>Deutsch</ion-label>
-            <ion-radio slot="end" value="german"></ion-radio>
-          </ion-item> -->
         </ion-radio-group>
       </ion-list>
     </ion-col>
