@@ -12,6 +12,8 @@ export class MenuComponent implements OnInit {
 
   bigFontTemp = false;
   darkModeTemp = false;
+  horizontalDistanceTemp = false;
+  verticalDistanceTemp = false;
 zmienna;
   constructor(
     private modalCtr:ModalController,
@@ -48,6 +50,15 @@ zmienna;
   darkMode() {
     this.generalService.darkMode = !this.generalService.darkMode;
     this.darkModeTemp = !this.darkModeTemp;
+  }
+  verticalDistance() {
+    this.generalService.verticalDistance = !this.generalService.verticalDistance;
+    this.verticalDistanceTemp = !this.verticalDistanceTemp;
+  }
+
+  horizontalDistance() {
+    this.generalService.horizontalDistance = !this.generalService.horizontalDistance;
+    this.horizontalDistanceTemp = !this.horizontalDistanceTemp;
   }
 
 

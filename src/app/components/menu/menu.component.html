@@ -1,19 +1,19 @@
 
-<ion-grid [ngClass]="{ 'big-font': bigFontTemp, 'dark': darkModeTemp }" style="width: 100vw">
-  <ion-row>
+<ion-grid class="overflow" [ngClass]="{ 'big-font': bigFontTemp, 'dark': darkModeTemp, 'verticalDistance': verticalDistanceTemp, 'horizontalDistance': horizontalDistanceTemp }" style="width: 100vw">
+  <ion-row class="backgroundColor minus5px" style="position: fixed; z-index: 999;  width: 100%;">
     <ion-col>
-      <ion-text (click)="dismissModal()">(X) {{ "GENERAL.close" | translate}}</ion-text>
+      <ion-text class="text" (click)="dismissModal()">(X) {{ "GENERAL.close" | translate}} </ion-text>
     </ion-col>
   </ion-row>
-  <ion-row>
+  <ion-row style="margin-top:50px;">
     <ion-col>
       <ion-list>
         <ion-radio-group value="pl">
           <ion-list-header class="ion-text-center">
-            <ion-label class="border-bottom-dark-blue" style="height: 40px">{{ "GENERAL.choose_language" | translate }}</ion-label>
+            <ion-label class="border-bottom-dark-blue yellow title" >{{ "GENERAL.choose_language" | translate }}</ion-label>
           </ion-list-header>
           <ion-item *ngFor="let lng of languages" (click)="select(lng.value)">
-            <ion-label>{{ lng.text }}</ion-label>
+            <ion-label class="text">{{ lng.text }}</ion-label>
             <ion-radio slot="end"></ion-radio>          
           </ion-item>
         </ion-radio-group>
@@ -25,22 +25,22 @@
     <ion-col>
       <ion-list>
         <ion-list-header class="ion-text-center">
-          <ion-label class="border-bottom-dark-blue" style="height: 40px">WCAG</ion-label>
+          <ion-label class="border-bottom-dark-blue yellow title">WCAG</ion-label>
         </ion-list-header>
         <ion-item (click)="bigFont()">
-          <ion-label>{{ "GENERAL.font_size" | translate }}</ion-label>
+          <ion-label class="text">{{ "GENERAL.font_size" | translate }}</ion-label>
           <ion-checkbox slot="end"></ion-checkbox>
         </ion-item>
         <ion-item (click)="darkMode()">
-          <ion-label>{{ "GENERAL.contrast" | translate }}</ion-label>
+          <ion-label class="text">{{ "GENERAL.contrast" | translate }}</ion-label>
           <ion-checkbox slot="end"></ion-checkbox>
         </ion-item>
-        <ion-item>
-          <ion-label>{{ "GENERAL.vertical_distance" | translate }}</ion-label>
+        <ion-item  (click)="verticalDistance()">
+          <ion-label class="text">{{ "GENERAL.vertical_distance" | translate }}</ion-label>
           <ion-checkbox slot="end"></ion-checkbox>
         </ion-item>
-        <ion-item>
-          <ion-label>{{ "GENERAL.horizontal_distance" | translate }}</ion-label>
+        <ion-item (click)="horizontalDistance()">
+          <ion-label class="text">{{ "GENERAL.horizontal_distance" | translate }}</ion-label>
           <ion-checkbox slot="end"></ion-checkbox>
         </ion-item>
       </ion-list>

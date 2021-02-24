@@ -15,9 +15,12 @@ import { GeneralService } from "../../services/general.service";
 })
 export class HomePage {
 
-  bigFont: any;
-  darkMode: any;
-  
+  bigFontTemp: any;
+  darkModeTemp: any;
+  verticalDistanceTemp: any;
+  horizontalDistanceTemp: any;
+
+
   constructor(
     private NativePageTransitions: NativePageTransitions,
     private router: Router,
@@ -150,8 +153,8 @@ export class HomePage {
   }
 
   ngDoCheck() {
-    this.darkMode = this.generalService.darkMode;
-    this.bigFont = this.generalService.bigFont;
+    this.darkModeTemp = this.generalService.darkMode;
+    this.bigFontTemp = this.generalService.bigFont;
   }
 
 

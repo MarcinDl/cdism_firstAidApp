@@ -25,11 +25,16 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
-
 $lightBlue-1E73BE: #1E73BE;
 $lightGrey-C0C0C0: #C0C0C0;
 $darkBlue-00346F: #00346F;
 $yellow: yellow;
+$generalFontSize: 16px;
+$titleFontSize: $generalFontSize*1.5;
+$subTitleFontSize: $generalFontSize*1.25;
+$bigFontSize-generalFontSize: 20px;
+$bigFontSize-titleFontSize: $bigFontSize-generalFontSize*1.5;
+$bigFontSize-subTitleFontSize: $bigFontSize-generalFontSize*1.25;
 
 @mixin border-bottom($px,$solid,$color) {
     border-bottom: $px $solid $color;
@@ -43,6 +48,11 @@ ion-back-button {
     display: block;
 }
 
+.backgroundColor{
+    background-color: white;
+    --background: white;
+    background: white;
+}
 .border-bottom-dark-blue{
     @include border-bottom(5px, solid, $darkBlue-00346F)
 }
@@ -72,7 +82,11 @@ ul{
     background: black;
     color: yellow;
     --color: yellow;
-
+    .backgroundColor{
+        background-color: black;
+        --background: black;
+        background: black;
+    }
     ion-checkbox {
         --background: rgba(	255, 255, 0,0.5);
         --ion-color-primary: yellow;
@@ -89,9 +103,47 @@ ul{
         color: yellow;
         --color: yellow;
     }
+    .yellow{
+        color: yellow;
+    }
 }
+.text{
+    font-size: $generalFontSize;
+}
+.title{
+    font-size: $titleFontSize;
+}
+.subtitle{
+    font-size: $subTitleFontSize;
+}
+
 
 .big-font{
-    font-size: 80px;
+    // font-size: $bigFontSize;
+    .text{
+        font-size: $bigFontSize-generalFontSize;
+        white-space: initial;
+    }
+    .title{
+        font-size: $bigFontSize-titleFontSize;
+    }
+    .subtitle{
+        font-size: $bigFontSize-subTitleFontSize;
+    }
 }
 
+
+.horizontalDistance{
+    ion-content, ion-gird, ion-row, ion-col, div, ion-text, ion-label, span {
+        letter-spacing: 10px;
+    }
+}
+
+.verticalDistance{
+    ion-content, ion-gird, ion-row, ion-col, div {
+        line-height: 50px;
+    }
+    .minus5px{
+        margin-top: -5px;
+    }
+}

@@ -7,11 +7,9 @@ export class GeneralService {
 
   public darkMode: any;
   public bigFont: any;
+  public verticalDistance: any;
+  public horizontalDistance: any;
   
   constructor() { }
 
-
-  allegro(){
-    alert("dupa")
-  }
 }
