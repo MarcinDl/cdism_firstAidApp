@@ -1,7 +1,7 @@
 <app-header></app-header>
 
-<ion-tabs >
-  <ion-tab-bar slot="bottom">
+<ion-tabs [ngClass]="{ 'big-font': bigFont, 'dark': darkMode, 'verticalDistance': verticalDistance, 'horizontalDistance': horizontalDistance }">
+  <ion-tab-bar slot="bottom" class="yellowBackground">
     <ion-tab-button tab="generalFractures">
       <img src="./../../assets/icon/broken-bone.svg" style="width: 50%;height: 50%;">
       <!-- <ion-label>złamania</ion-label> -->
