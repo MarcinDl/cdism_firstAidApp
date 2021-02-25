@@ -96,6 +96,9 @@ ul{
 .redColor{
     color: red;
 }
+.rectStyle{
+    fill:rgb(0,0,0);
+}
 .dark{
     background-color: black;
     --background: black;
@@ -144,6 +147,18 @@ ul{
     }
     .redColor{
         color: yellow;
+    }
+    .rectStyle{
+        fill:yellow;
+    }
+    ion-card-subtitle,ion-card-title{
+        color: $yellow;
+    }
+    .swiper-pagination-bullet-active{
+        background: $yellow;
+    }
+    .swiper-pagination-bullet{
+        background: rgba(	255, 255, 0,0.5);
     }
 }
 
