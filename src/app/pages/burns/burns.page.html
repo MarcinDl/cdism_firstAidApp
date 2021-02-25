@@ -1,4 +1,4 @@
-<ion-content>
+<ion-content [ngClass]="{ 'big-font': bigFont, 'dark': darkMode, 'verticalDistance': verticalDistance, 'horizontalDistance': horizontalDistance }">
   <app-header></app-header>
   <ion-grid style="margin-top: 23vh;height: 77vh;">
     <ion-row>
@@ -10,7 +10,7 @@
     </ion-row>
     <ion-row>
       <ion-col class="border-bottom-light-grey">
-        <ion-text style="color:red">{{ 'burns.degrees' | translate | uppercase}} </ion-text>
+        <ion-text class="redColor">{{ 'burns.degrees' | translate | uppercase}} </ion-text>
       </ion-col>
     </ion-row>
     <ion-row>
@@ -22,7 +22,7 @@
     </ion-row>
     <ion-row>
       <ion-col class="border-bottom-light-grey">
-        <ion-text style="color:red">{{ 'burns.procedure' | translate | uppercase}} </ion-text>
+        <ion-text class="redColor">{{ 'burns.procedure' | translate | uppercase}} </ion-text>
       </ion-col>
     </ion-row>
     <ion-row>
