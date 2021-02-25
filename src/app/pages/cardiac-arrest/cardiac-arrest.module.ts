@@ -17,7 +17,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
     IonicModule,
     CardiacArrestPageRoutingModule,
     TranslateModule,
-    SharedModule
+    SharedModule,
   ],
   declarations: [CardiacArrestPage],
 })

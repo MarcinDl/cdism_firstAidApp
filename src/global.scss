@@ -93,6 +93,9 @@ ul{
 .subtitle{
     font-size: $subTitleFontSize;
 }
+.redColor{
+    color: red;
+}
 .dark{
     background-color: black;
     --background: black;
@@ -119,6 +122,9 @@ ul{
     .border-bottom-dark-blue{
         @include border-bottom(5px, solid, $yellow)
     }
+    .border-bottom-light-grey{
+        @include border-bottom(1px, solid, $yellow)
+    }
     ion-content, ion-grid, ion-list, ion-item{
         background-color: black;
         --background: black;
@@ -126,6 +132,7 @@ ul{
         color: yellow;
         --color: yellow;
     }
+
     .yellow{
         color: yellow;
     }

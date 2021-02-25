@@ -1,4 +1,4 @@
-<ion-content>
+<ion-content [ngClass]="{ 'big-font': bigFont, 'dark': darkMode, 'verticalDistance': verticalDistance, 'horizontalDistance': horizontalDistance }">
 <app-header></app-header>
 <ion-grid style="margin-top: 23vh;height: 77vh; width: 94vw; margin-left: 3vw;">
     <ion-row>
@@ -10,7 +10,7 @@
       <ion-grid>
         <ion-row>
           <ion-col class="border-bottom-light-grey">
-            <ion-text style="color: red; font-size: 1.2rem;">{{  'cardiac_arrest.title_1.title' | translate }}</ion-text>
+            <ion-text class="subTitle redColor yellow">{{  'cardiac_arrest.title_1.title' | translate }}</ion-text>
           </ion-col>
         </ion-row>
         <ion-row>
@@ -30,7 +30,7 @@
       <ion-grid>
         <ion-row>
           <ion-col class="border-bottom-light-grey">
-            <ion-text style="color: red; font-size: 1.2rem;">{{  'cardiac_arrest.title_2.title' | translate }}</ion-text>
+            <ion-text class="subTitle redColor yellow">{{  'cardiac_arrest.title_2.title' | translate }}</ion-text>
           </ion-col>
         </ion-row>
         <ion-row>
@@ -55,7 +55,7 @@
       <ion-grid>
         <ion-row>
           <ion-col class="border-bottom-light-grey">
-            <ion-text style="color: red; font-size: 1.2rem;">{{  'cardiac_arrest.title_3.title' | translate }}</ion-text>
+            <ion-text class="subTitle redColor yellow">{{  'cardiac_arrest.title_3.title' | translate }}</ion-text>
           </ion-col>
         </ion-row>
         <ion-row>
@@ -74,7 +74,7 @@
       <ion-grid>
         <ion-row>
           <ion-col class="border-bottom-light-grey">
-            <ion-text style="color: red; font-size: 1.2rem;">{{  'cardiac_arrest.title_4.title' | translate }}</ion-text>
+            <ion-text class="subTitle redColor yellow">{{  'cardiac_arrest.title_4.title' | translate }}</ion-text>
           </ion-col>
         </ion-row>
         <ion-row>
@@ -92,7 +92,7 @@
       <ion-grid>
         <ion-row>
           <ion-col class="border-bottom-light-grey">
-            <ion-text style="color: red; font-size: 1.2rem;">{{  'cardiac_arrest.title_5.title' | translate }} </ion-text>
+            <ion-text class="subTitle redColor yellow">{{  'cardiac_arrest.title_5.title' | translate }} </ion-text>
           </ion-col>
         </ion-row>
         <ion-row>
