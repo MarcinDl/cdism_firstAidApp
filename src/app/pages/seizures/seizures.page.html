@@ -1,4 +1,4 @@
-<ion-content>
+<ion-content [ngClass]="{ 'big-font': bigFont, 'dark': darkMode, 'verticalDistance': verticalDistance, 'horizontalDistance': horizontalDistance }">
   <app-header></app-header>
   <ion-grid style="margin-top: 23vh;height: 77vh;">
     <ion-row>
@@ -8,7 +8,7 @@
     </ion-row>
     <ion-row>
       <ion-col class="border-bottom-light-grey">
-        <ion-text style="color: red; font-size: 1.2rem;">{{ 'seizures.principalRules.title' | translate }}</ion-text>
+        <ion-text class="subtitle redColor">{{ 'seizures.principalRules.title' | translate }}</ion-text>
       </ion-col>
     </ion-row>
     <ion-row>
@@ -28,7 +28,7 @@
     </ion-row>
     <ion-row>
       <ion-col class="border-bottom-light-grey">
-        <ion-text style="color: red; font-size: 1.2rem;">{{ 'safePosition.rememberAbout.title' | translate }}</ion-text>
+        <ion-text class="subtitle redColor">{{ 'seizures.rememberAbout.title' | translate }}</ion-text>
       </ion-col>
     </ion-row>
     <ion-row>
