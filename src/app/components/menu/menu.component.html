@@ -20,7 +20,6 @@
       </ion-list>
     </ion-col>
   </ion-row>
-
   <ion-row>
     <ion-col>
       <ion-list>
@@ -29,19 +28,19 @@
         </ion-list-header>
         <ion-item (click)="bigFont()">
           <ion-label class="text">{{ "GENERAL.font_size" | translate }}</ion-label>
-          <ion-checkbox slot="end"></ion-checkbox>
+          <ion-checkbox [(ngModel)]="bigFontisChecked" slot="end"></ion-checkbox>
         </ion-item>
         <ion-item (click)="darkMode()">
           <ion-label class="text">{{ "GENERAL.contrast" | translate }}</ion-label>
-          <ion-checkbox slot="end"></ion-checkbox>
+          <ion-checkbox [(ngModel)]="darkModeisChecked" slot="end"></ion-checkbox>
         </ion-item>
         <ion-item  (click)="verticalDistance()">
           <ion-label class="text">{{ "GENERAL.vertical_distance" | translate }}</ion-label>
-          <ion-checkbox slot="end"></ion-checkbox>
+          <ion-checkbox [(ngModel)]="verticalDistanceisChecked" slot="end"></ion-checkbox>
         </ion-item>
         <ion-item (click)="horizontalDistance()">
           <ion-label class="text">{{ "GENERAL.horizontal_distance" | translate }}</ion-label>
-          <ion-checkbox slot="end"></ion-checkbox>
+          <ion-checkbox [(ngModel)]="horizontalDistanceisChecked" slot="end"></ion-checkbox>
         </ion-item>
       </ion-list>
     </ion-col>

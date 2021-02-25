@@ -9,6 +9,10 @@ export class GeneralService {
   public bigFont: any;
   public verticalDistance: any;
   public horizontalDistance: any;
+  public bigFontisChecked: any;
+  public darkModeisChecked: any;
+  public verticalDistanceisChecked: any;
+  public horizontalDistanceisChecked: any;
   
   constructor() { }
 

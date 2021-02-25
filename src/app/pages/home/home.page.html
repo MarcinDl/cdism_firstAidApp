@@ -1,56 +1,54 @@
-<ion-content [ngClass]="{ 'big-font': bigFontTemp, 'dark': darkModeTemp, 'verticalDistance': verticalDistanceTemp, 'horizontalDistance': horizontalDistanceTemp }"  [fullscreen]="true" no-bounce has-bouncing="false" forceOverscroll="false">
+<ion-content [ngClass]="{ 'big-font': bigFont, 'dark': darkMode, 'verticalDistance': verticalDistance, 'horizontalDistance': horizontalDistance }"  [fullscreen]="true" no-bounce has-bouncing="false" forceOverscroll="false">
     
     <ion-grid style="padding: 0; z-index: 10; position: fixed; top: 0px; left: 0px; width: 100vw; ">
-        <ion-row style="height: 15vh; background-color:#1E73BE; color: white;" class="ion-text-center ion-align-items-center;">
+        <ion-row class="ion-text-center ion-align-items-center home-header">
             <ion-col style="display: flex; align-items: center; justify-content: center;" >
                 <img src="./../../../assets/images/cross.png" style="height: auto; width: 5%;" alt="">
-                <ion-text style="margin-left: 15px; font-size: 1.5rem; letter-spacing: 2px;">{{ 'HOME.title' | translate | uppercase}}</ion-text>
+                <ion-text class="title" style="margin-left: 15px; letter-spacing: 2px;">{{ 'HOME.title' | translate | uppercase}}</ion-text>
             </ion-col>
         </ion-row>
         <ion-row >
-            <ion-col class="ion-text-end ion-align-items-center" style="height:7vh;padding: 10px 0; background-color: #1B558F; color: white;box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.5);">
+            <ion-col class="ion-text-end ion-align-items-center home-modal" >
                 <ion-icon (click)="openModal()" style="margin-right: 30px; font-size: 20px" name="menu-outline"></ion-icon> 
             </ion-col>
         </ion-row>
     </ion-grid>
 
-    <ion-grid style="height: 80vh;position: absolute; top: 23vh; width: 100vw;">
+    <ion-grid style="position: absolute; top: 23vh; width: 100vw;">
         <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m1.png'); background-size: cover; height: 25vh; ">
-            <ion-col (click)="cardialArrest()" size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; color: white; border-bottom: 3px solid white; letter-spacing: 2px;">
+            <ion-col (click)="cardialArrest()" size="10" offset="1" class="yellow home-title text" >
                 <ion-text>{{ 'HOME.cardiac_arrest' | translate | uppercase}}</ion-text> 
             </ion-col>
         </ion-row>
         <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m2.png'); background-size: cover; height: 25vh; margin: 10px 0;">
-            <ion-col (click)="navigateFractures()" size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; color: white; border-bottom: 3px solid white; letter-spacing: 2px;">
+            <ion-col (click)="navigateFractures()" size="10" offset="1" class="yellow home-title text" >
                 <ion-text>{{ 'HOME.injuries' | translate | uppercase}}</ion-text> 
             </ion-col>
         </ion-row>
         <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m3.png'); background-size: cover; height: 25vh; margin: 10px 0;">
-            <ion-col (click)="navigateUnconscious()" size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; color: white; border-bottom: 3px solid white; letter-spacing: 2px;">
+            <ion-col (click)="navigateUnconscious()" size="10" offset="1" class="yellow home-title text" >
                 <ion-text>{{ 'HOME.victim_unconscious' | translate | uppercase}}</ion-text> 
             </ion-col>
         </ion-row>
         <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m4.png'); background-size: cover; height: 25vh; margin: 10px 0;">
-            <ion-col (click)="navigateFirstAid()" size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; color: white; border-bottom: 3px solid white; letter-spacing: 2px;">
+            <ion-col (click)="navigateFirstAid()" size="10" offset="1" class="yellow home-title text" >
                 <ion-text>{{ 'HOME.seizures' | translate | uppercase}} </ion-text> 
             </ion-col>
         </ion-row>
         <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m5.png'); background-size: cover; height: 25vh; margin: 10px 0;">
-            <ion-col (click)="navigateSafePosition()" size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; color: white; border-bottom: 3px solid white; letter-spacing: 2px;">
+            <ion-col (click)="navigateSafePosition()" size="10" offset="1" class="yellow home-title text" >
                 <ion-text>{{ 'HOME.safe_position' | translate | uppercase }}</ion-text> 
             </ion-col>
         </ion-row>
         <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m5.png'); background-size: cover; height: 25vh; margin: 10px 0;">
-            <ion-col (click)="navigateBurns()" size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; color: white; border-bottom: 3px solid white; letter-spacing: 2px;">
+            <ion-col (click)="navigateBurns()" size="10" offset="1" class="yellow home-title text" >
                 <ion-text>{{ 'HOME.burns' | translate | uppercase }}</ion-text> 
             </ion-col>
         </ion-row>
         <ion-row class="ion-text-center ion-align-items-center" style="background-image: url('./../../../assets/images/mainPage/m6.png'); background-size: cover; height: 25vh; margin: 10px 0 30px 0;">
-            <ion-col (click)="navigateFAQ()" size="10" offset="1" style="background-color: #1E73BE; padding: 15px 0; color: white; border-bottom: 3px solid white; letter-spacing: 2px;">
+            <ion-col (click)="navigateFAQ()" size="10" offset="1" class="yellow home-title text" >
                 <ion-text>FAQ</ion-text> 
             </ion-col>
         </ion-row>
     </ion-grid> 
-
-  
 </ion-content>

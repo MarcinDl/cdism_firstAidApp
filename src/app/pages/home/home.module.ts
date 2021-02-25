@@ -8,7 +8,6 @@ import { HeaderComponent } from '../../components/header/header.component'
 import { HomePageRoutingModule } from './home-routing.module';
 import { MenuComponent } from '../../components/menu/menu.component'
 import { TranslateModule } from '@ngx-translate/core';
-import { GeneralService } from 'src/app/services/general.service';
 @NgModule({
   imports: [
     CommonModule,
@@ -19,6 +18,6 @@ import { GeneralService } from 'src/app/services/general.service';
   ],
   declarations: [HomePage, MenuComponent,HeaderComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  providers: [GeneralService]
+  providers: []
 })
 export class HomePageModule {}

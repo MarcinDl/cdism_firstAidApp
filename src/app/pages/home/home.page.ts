@@ -15,19 +15,17 @@ import { GeneralService } from "../../services/general.service";
 })
 export class HomePage {
 
-  bigFontTemp: any;
-  darkModeTemp: any;
-  verticalDistanceTemp: any;
-  horizontalDistanceTemp: any;
 
-
+  public darkMode: any;
+  public bigFont: any;
+  public verticalDistance:any;
+  public horizontalDistance:any;
   constructor(
     private NativePageTransitions: NativePageTransitions,
     private router: Router,
     private modalCtr: ModalController,
     public generalService:GeneralService
   ) { }
-
   slidePage() {
     let options: NativeTransitionOptions = {
       direction: "left",
@@ -152,11 +150,12 @@ export class HomePage {
 
   }
 
-  ngDoCheck() {
-    this.darkModeTemp = this.generalService.darkMode;
-    this.bigFontTemp = this.generalService.bigFont;
+
+  ngDoCheck(){
+      this.bigFont = this.generalService.bigFont,
+      this.darkMode = this.generalService.darkMode,
+      this.horizontalDistance = this.generalService.horizontalDistance,
+      this.verticalDistance = this.generalService.verticalDistance
   }
-
-
 
 }
